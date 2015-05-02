@@ -43,7 +43,7 @@
                         </div><!-- .col-md-6 -->
                         <div class="col-md-6">
                             <ul class="footer-nav">
-                                <li><a href="#">Contacto</a></li>
+                                <li><a href="contact.php">Contacto</a></li>
                             </ul>
                         </div>
                     </div>
