@@ -27,7 +27,7 @@
                     </div>
                     <div class="col-sm-3 col-xs-12">
                         <ul class="footer-widget">
-                            <li><span><i class="fa fa-phone fa-lg"></i> Central:</span> 708 4101 anexo 101</li>
+                            <li><span><i class="fa fa-phone fa-lg"></i> Central:</span> 708 4101</li>
                             <li><span><i class="fa fa-mobile-phone fa-lg"></i> RPC:</span> 992346162</li>
                             <li><span><i class="fa fa-envelope-o"></i> Correo:</span> eventos@nosilenceperu.com</li>
                         </ul>
@@ -93,12 +93,12 @@
 						home: { latitude: posLatitude, longitude: posLongitude },
 						text: '<div class="map-popup"><h4>Web Development | ZoOm-Arts</h4><p>A web development blog for all your HTML5 and WordPress needs.</p></div>',
 						icon_url: $('#map').data('marker-img'),	
-						zoom: 15
+						zoom: 16
 					}, options );
 					
 					var coords = new google.maps.LatLng(settings.home.latitude, settings.home.longitude);
 					
-					return this.each(function() {	
+					return this.each(function() {
 						var element = $(this);
 						
 						var options = {
@@ -113,7 +113,7 @@
 							zoomControlOptions: {
 								style: google.maps.ZoomControlStyle.DEFAULT
 							},
-							overviewMapControl: true,	
+							overviewMapControl: true,
 						};
 						
 						var map = new google.maps.Map(element[0], options);
@@ -149,13 +149,30 @@
 				jQuery('#map').CustomMap();
 			});
 
-			$submit.click(function(){
+			$submit.click(function(e){
+				e.preventDefault();
+				var $messages = $('#content-messages'),
+					$form = $(".contact-form"),
+					data = $form.serialize(),
+					$inputs = $form.find(':input');
 
-			$.post("php/send.php", $(".contact-form").serialize(),  function(response) {   
-			 $('#success').html(response);
-			});
-			return false;
-
+				$inputs.prop('disabled', true);
+				$messages.children().addClass('hidden');
+				$.ajax({
+					url: "php/send.php",
+					data: data,
+					type: 'POST',
+					dataType: 'json'
+				}).done(function(response) {
+					if (response.load) {
+						$('#success').removeClass('hidden').html(response.success_message);
+						$form.trigger('reset');
+					} else {
+						$('#error').removeClass('hidden').html(response.error_message);
+					}
+				}).always(function() {
+					$inputs.prop('disabled', false);
+				});
 			});
     	}
 	</script>

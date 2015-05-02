@@ -9,23 +9,12 @@
             <li data-target="#main-slide" data-slide-to="1"></li>
             <li data-target="#main-slide" data-slide-to="2"></li>
         </ol>
-        <!--/ Indicators end-->
-
-        <!-- Carousel inner -->
         <div class="carousel-inner">
             <div class="item active">
-                <img class="img-responsive" src="images/slider/bg2.jpg" alt="slider">
-                <div class="slider-content">
-                    <div class="col-md-12 text-center">
-                        <h2 class="animated2 white">
-                		  <span>BIENVENIDO A <strong>NOSILENCE</strong></span>
-                	    </h2>
-                    </div>
-                </div>
-            </div>
-            <!--/ Carousel item end -->
-            <div class="item">
                 <img class="img-responsive" src="images/slider/bg1.jpg" alt="slider">
+            </div>
+            <div class="item">
+                <img class="img-responsive" src="images/slider/bg2.jpg" alt="slider">
                 <div class="slider-content">
                     <!-- <div class="col-md-12 text-center">
                         <h2 class="animated4">
