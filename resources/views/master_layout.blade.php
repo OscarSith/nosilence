@@ -73,12 +73,7 @@
                                     <li><a href="#">Fiesta de Prom</a></li> -->
                                 </ul>
                             </li>
-                            <li>
-                                <a href="#">Servicios</a>
-                                <ul class="dropdown">
-                                    <li><a href="#">Muy Pronto</a></li>
-                                </ul>
-                            </li>
+                            <li><a href="{{ url('servicios') }}">Servicios</a></li>
                             <li>
                                 <a href="#">Testimonios</a>
                                 <ul class="dropdown">

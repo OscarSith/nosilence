@@ -52,4 +52,9 @@ class WelcomeController extends Controller {
 
 		return \Response::json(['load' => true, 'success_message' => 'Mensaje enviado, en breve un representante se comunicará contigo.']);
 	}
+
+	public function services()
+	{
+		return view('services');
+	}
 }

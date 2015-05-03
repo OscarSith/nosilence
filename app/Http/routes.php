@@ -12,6 +12,7 @@
 */
 
 Route::get('/', 'WelcomeController@index');
+Route::get('servicios', 'WelcomeController@services');
 Route::get('contacto', 'WelcomeController@contacto');
 Route::post('contact', 'WelcomeController@sendMail');
 
