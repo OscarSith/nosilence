@@ -8,7 +8,9 @@
 					<h4 class="classic-title"><span>Contáctanos</span></h4>
 					<p>Escribenos y un representante se comunicará contigo</p>
 					<br>
-					<form role="form" class="contact-form" id="contact-form" method="post">
+					<form role="form" class="contact-form" action="{{ url('contact') }}" id="contact-form" method="post">
+						<input type="hidden" name="_token" value="{{ csrf_token() }}">
+						<input type="hidden" name="_id" value="23">
 						<div class="form-group" id="content-messages">
 							<div id="success" class="alert alert-success hidden" role="alert"></div>
 							<div id="error" class="alert alert-danger hidden" role="alert"></div>

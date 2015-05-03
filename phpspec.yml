@@ -1,0 +1,5 @@
+suites:
+    main:
+        namespace: Nosilence
+        psr4_prefix: Nosilence
+        src_path: app
