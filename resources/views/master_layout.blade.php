@@ -57,7 +57,8 @@
                     </div>
                     <div class="navbar-collapse collapse">
                         <ul class="nav navbar-nav navbar-right">
-                            <li><a class="active" href="{{ url('/') }}">Inicio</a></li>
+                            <?php $currentUrl = Route::current()->uri(); ?>
+                            <li><a {{ $currentUrl === '/' ? 'class=active' : '' }} href="{{ url('/') }}">Inicio</a></li>
                             <li>
                                 <a href="#">Nosotros</a>
                                 <ul class="dropdown">
@@ -73,14 +74,9 @@
                                     <li><a href="#">Fiesta de Prom</a></li> -->
                                 </ul>
                             </li>
-                            <li><a href="{{ url('servicios') }}">Servicios</a></li>
-                            <li>
-                                <a href="#">Testimonios</a>
-                                <ul class="dropdown">
-                                    <li><a href="#">Muy Pronto</a></li>
-                                </ul>
-                            </li>
-                            <li><a href="{{ url('contacto') }}">Contacto</a></li>
+                            <li><a {{ $currentUrl === 'servicios' ? 'class=active' : '' }} href="{{ url('servicios') }}">Servicios</a></li>
+                            <li><a {{ $currentUrl == 'testimonios' ? 'class=active' : '' }} href="{{ url('testimonios') }}">Testimonios</a></li>
+                            <li><a {{ $currentUrl === 'contacto' ? 'class=active' : '' }} href="{{ url('contacto') }}">Contacto</a></li>
                         </ul>
                     </div>
                 </div>

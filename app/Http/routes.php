@@ -14,9 +14,16 @@
 Route::get('/', 'WelcomeController@index');
 Route::get('servicios', 'WelcomeController@services');
 Route::get('contacto', 'WelcomeController@contacto');
+Route::get('testimonios', 'WelcomeController@testimonial');
 Route::post('contact', 'WelcomeController@sendMail');
 
-Route::get('home', 'HomeController@index');
+Route::group(['prefix' => 'admin'], function($route) {
+	$route->get('/', ['as' => 'home', 'uses' => 'HomeController@index']);
+	$route->get('testimonios', ['middleware' => 'auth', 'as' => 'testimonial', 'uses' => 'TestimonialController@index']);
+	$route->put('testimonios/aceptar', ['middleware' => 'auth', 'as' => 'accept', 'uses' => 'TestimonialController@update']);
+	$route->delete('testimonios/rechazar', ['middleware' => 'auth', 'as' => 'reject', 'uses' => 'TestimonialController@delete']);
+	$route->post('testimonios', ['as' => 'addTestimonial', 'uses' => 'TestimonialController@store']);
+});
 
 Route::controllers([
 	'auth' => 'Auth\AuthController',
