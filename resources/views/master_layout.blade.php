@@ -155,8 +155,8 @@
     <script type="text/javascript" src="{{ asset('js/owl.carousel.min.js') }}"></script>
     <!--<script type="text/javascript" src="js/nivo-lightbox.min.js"></script>-->
     <!--<script type="text/javascript" src="js/jquery.isotope.min.js"></script>-->
-    <!--<script type="text/javascript" src="js/jquery.appear.js"></script>-->
-    <!--<script type="text/javascript" src="js/count-to.js"></script>-->
+    <script type="text/javascript" src="js/jquery.appear.js"></script>
+    <script type="text/javascript" src="{{ asset('js/count-to.js') }}"></script>
     <script type="text/javascript" src="{{ asset('js/jquery.textillate.js') }}"></script>
     <script type="text/javascript" src="{{ asset('js/jquery.lettering.js') }}"></script>
     <!--<script type="text/javascript" src="js/jquery.easypiechart.min.js"></script>-->

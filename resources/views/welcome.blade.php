@@ -48,18 +48,55 @@
 <div class="section">
     <div class="container">
         <div class="col-md-6 col-sm-8 col-md-offset-3 col-sm-offset-2">
-            <p class="text-center">
-                "La música tiene el poder de liberar nuestras mentes y nos transporta a un estado de SATISFACCIÓN y, ADRENALINA. LA MÚSICA NOS UNE, por lo que las FIESTAS SON LA EXPRESIÓN DE NUESTRAS ENERGÍAS"
+            <p class="text-center" style="font-size: 1.4em;color: #999">
+                !Súmate a la magia de una<br>VERDADERA FIESTA!
             </p>
         </div>
         <div class="col-xs-12">
             <img src="images/equis.png" alt="" class="center-block text-center">
-            <h1 class="text-center no-margin">BIENVENIDO</h1>
+            <h1 class="text-center no-margin" style="font-size: 3em;">BIENVENIDO</h1>
         </div>
     </div>
 </div>
-
-<div class="section purchase">
+<div id="parallax-one" class="parallax" style="background-image:url(images/parallax/bg-01.jpg);background-size: cover">
+    <div class="parallax-text-container-1">
+        <div class="parallax-text-item">
+            <div class="container">
+                <div class="row">
+                    <div class="col-xs-12 col-sm-3 col-md-3">
+                        <div class="counter-item">
+                            <i class="fa fa-birthday-cake"></i>
+                            <div class="timer" id="item1" data-to="378" data-speed="4000"></div>
+                            <h5>Fiestas Increibles</h5>
+                        </div>
+                    </div>
+                    <div class="col-xs-12 col-sm-3 col-md-3">
+                        <div class="counter-item">
+                            <i class="fa fa-skyatlas"></i>
+                            <div class="timer" id="item2" data-to="204" data-speed="4000"></div>
+                            <h5>QUINCEAÑERAS CUMPLIERON SU SUEÑO</h5>
+                        </div>
+                    </div>
+                    <div class="col-xs-12 col-sm-3 col-md-3">
+                        <div class="counter-item">
+                            <i class="fa fa-graduation-cap"></i>
+                            <div class="timer" id="item3" data-to="1350" data-speed="4000"></div>
+                            <h5>Alumnos vivieron una gran noche</h5>
+                        </div>
+                    </div>
+                    <div class="col-xs-12 col-sm-3 col-md-3">
+                        <div class="counter-item">
+                            <i class="fa fa-heartbeat"></i>
+                            <div class="timer" id="item4" data-to="132453" data-speed="5000"></div>
+                            <h5>Invitados bailaron de principio a fin</h5>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- <div class="section purchase">
     <div class="container">
         <div class="section-video-content text-center">
             <h1 class="fittext wite-text uppercase tlt">
@@ -71,5 +108,5 @@
             </h1>
         </div>
     </div>
-</div>
+</div> -->
 @stop

@@ -38,11 +38,11 @@ $(document).ready(function ($) {
     /*--------------------------------------------------*/
     /* Counter
     /*--------------------------------------------------*/
-    // $('.timer').countTo();
+    $('.timer').countTo();
 
-    // $('.counter-item').appear(function() {
-    //     $('.timer').countTo();
-    // },{accY: -100});
+    $('.counter-item').appear(function() {
+        $('.timer').countTo();
+    },{accY: -100});
     
     
 	
