@@ -83,6 +83,7 @@
                 <div class="row footer-widgets">
                     <div class="col-sm-9 col-xs-12">
                         <div>
+                            <img src="images/isotipo.png" alt="" class="img-responsive pull-left" width="110" style="margin-right: 28px">
                             <address>
                                 <p>Av. Dos de Mayo 516 of. 201 - Miraflores</p>
                                 <p>Av. Manuel Olgín 335 of. 1205 - Surco</p>

@@ -3338,3 +3338,9 @@ ul.footer-nav li a:hover {
 .margin-top-bot-3 {
 	margin: 3px 0
 }
+
+footer address {
+	border-left: 1px solid #D077D0;
+	float: left;
+	padding-left: 20px;
+}
