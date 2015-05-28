@@ -9,15 +9,9 @@
 
     <meta name="description" content="">
     <meta name="author" content="Oscar Larriega <larriega@gmail.com>">
-
-    <link rel="stylesheet" href="{{ asset('asset/css/bootstrap.min.css') }}" type="text/css" media="screen">
-    <link rel="stylesheet" href="{{ asset('css/font-awesome.min.css') }}" type="text/css" media="screen">
-
-    <link rel="stylesheet" type="text/css" href="{{ asset('css/style.css') }}" media="screen">
-    <link rel="stylesheet" type="text/css" href="{{ asset('css/responsive.css') }}" media="screen">
-    <link rel="stylesheet" type="text/css" href="{{ asset('css/animate.css') }}" media="screen">
-
-    <link rel="stylesheet" type="text/css" href="{{ asset('css/colors/blue.css') }}" title="blue" media="screen" />
+    <link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800">
+    <link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Lora:400,700,400italic,700italic">
+    <link rel="stylesheet" href="{{ asset('css/main.min.css') }}" type="text/css" media="screen">
 </head>
 
 <body>
@@ -87,14 +81,31 @@
         <footer>
             <div class="container">
                 <div class="row footer-widgets">
+                    <div class="col-sm-9 col-xs-12">
+                        <div>
+                            <address>
+                                <p>Av. Dos de Mayo 516 of. 201 - Miraflores</p>
+                                <p>Av. Manuel Olgín 335 of. 1205 - Surco</p>
+                                <ul>
+                                    <li style="margin-top: 2px;">
+                                        <span><i class="fa fa-phone fa-lg"></i> Central:</span> 708 4101
+                                    </li>
+                                    <li class="margin-top-bot-3">
+                                        <span><i class="fa fa-mobile-phone fa-lg"></i> RPC:</span> 992346162
+                                    </li>
+                                    <li><span><i class="fa fa-envelope-o"></i> Correo:</span> eventos@nosilenceperu.com</li>
+                                </ul>
+                            </address>
+                        </div>
+                    </div>
                     <div class="col-sm-3 col-xs-12">
-                        <div class="footer-widget social-widget">
-                            <h4>Síguenos<span class="head-line"></span></h4>
+                        <div class="social-widget text-right">
+                            <h4 class="classic-title" style="border-bottom:0"><span>Síguenos</span></h4>
                             <ul class="social-icons">
                                 <li>
                                     <a class="facebook" href="https://www.facebook.com/nosilenceperu" target="_blank"><i class="fa fa-facebook fa-lg"></i></a>
                                 </li>
-                                <li style="margin: 0 10px;">
+                                <li class="margin-sides-10">
                                     <a class="instgram" href="https://instagram.com/nosilence_peru/" target="_blank"><i class="fa fa-instagram fa-lg"></i></a>
                                 </li>
                                 <li>
@@ -102,24 +113,6 @@
                                 </li>
                             </ul>
                         </div>
-                    </div>
-                    <div class="col-sm-3 col-xs-12">
-                        <div class="footer-widget">
-                            <address>
-                                <p>Av. Dos de Mayo 516 of. 201 - Miraflores</p>
-                                <p>Av. Manuel Olgín 335 of. 1205 - Surco</p>
-                            </address>
-                        </div>
-                    </div>
-                    <div class="col-sm-3 col-xs-12">
-                        <ul class="footer-widget">
-                            <li><span><i class="fa fa-phone fa-lg"></i> Central:</span> 708 4101</li>
-                            <li><span><i class="fa fa-mobile-phone fa-lg"></i> RPC:</span> 992346162</li>
-                            <li><span><i class="fa fa-envelope-o"></i> Correo:</span> eventos@nosilenceperu.com</li>
-                        </ul>
-                    </div>
-                    <div class="col-sm-3 col-xs-12">
-                        <h4><img src="images/nosilence.png" class="img-responsive pull-right" alt="Footer Logo" /></h4>
                     </div>
                 </div>
                 <div class="copyright-section">
@@ -165,7 +158,7 @@
     <!--<script type="text/javascript" src="js/mediaelement-and-player.js"></script>-->
     <script type="text/javascript" src="{{ asset('js/script.js') }}"></script>
 
-    @include('vendor.script_contact')
+    @yield('contact')
 
     <!--[if IE 8]><script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script><![endif]-->
     <!--[if lt IE 9]><script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script><![endif]-->

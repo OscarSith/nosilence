@@ -70,3 +70,7 @@
 	</div>
 </div>
 @stop
+
+@section('contact')
+	@include('vendor.script_contact')
+@stop

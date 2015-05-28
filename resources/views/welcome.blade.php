@@ -54,7 +54,7 @@
         </div>
         <div class="col-xs-12">
             <img src="images/equis.png" alt="" class="center-block text-center">
-            <h1 class="text-center no-margin" style="font-size: 3em;">BIENVENIDO</h1>
+            <h1 class="text-center no-margin" style="font-size: 3em;color:#73E8F0">BIENVENIDO</h1>
         </div>
     </div>
 </div>
