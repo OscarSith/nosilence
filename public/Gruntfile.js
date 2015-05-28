@@ -9,7 +9,7 @@ module.exports = function(grunt) {
 						'css/style.css',
 						'css/responsive.css',
 						'css/animate.css',
-						'css/animate.css',
+						'css/colors/blue.css',
 					]
 				}
 			},
