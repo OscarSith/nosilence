@@ -999,7 +999,6 @@ ul.social-list li a i {
 
 .page-banner {
     padding: 30px 0;
-    background: url(../images/slide-02-bg.jpg) center;
 	border-bottom: 1px solid #eee;
 }
 
@@ -2232,6 +2231,7 @@ ul.icons-list li i {
     margin: 0;
     padding: 0;
     display: block;
+    text-align: center;
 }
 #portfolio-list li {
     position: relative;
@@ -2293,7 +2293,7 @@ and (min-width : 551px){
 }
 @media (min-width: 768px) {
     .portfolio-4column #portfolio-list li {
-      width: 24.8%;
+      width: 30%;
   }
 }
 
@@ -3343,4 +3343,52 @@ footer address {
 	border-left: 1px solid #D077D0;
 	float: left;
 	padding-left: 20px;
+}
+.us {
+	background-color: #73E8F0;
+	padding-top:40px !important;
+	padding-bottom:40px !important;
+}
+.img-team {
+	font-size: smaller;
+	margin-top: 40px;
+}
+.img-team h5 {
+	border-bottom: 1px solid #999;
+	display: inline-block;
+}
+.team-content {
+	padding-left: 25px
+}
+.team-content a {
+	color: #6FE7E3;
+}
+.team-content small span {
+	display: block;
+}
+.mb0 {
+	margin-bottom: 0 !important
+}
+
+.col-xs-15,
+.col-sm-15,
+.col-md-15,
+.col-lg-15 {
+    position: relative;
+    min-height: 1px;
+    padding-right: 10px;
+    padding-left: 10px;
+    margin-top: 25px
+}
+@media (max-width: 992px) {
+	.team-content {
+		text-align: center;
+		padding-left: 0 !important;
+	}
+}
+@media (min-width: 992px) {
+    .col-md-15 {
+        width: 20%;
+        float: left;
+    }
 }

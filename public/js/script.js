@@ -110,95 +110,49 @@ $(document).ready(function ($) {
 		tick,
 		percentTime;
 
-	// $('.touch-slider').each(function(){
-	// 	var owl = jQuery(this),
-	// 		sliderNav = $(this).attr('data-slider-navigation'),
-	// 		sliderPag = $(this).attr('data-slider-pagination'),
-	// 		sliderProgressBar = $(this).attr('data-slider-progress-bar');
-			
-	// 	if ( sliderNav == 'false' || sliderNav == '0' ) {
-	// 		var returnSliderNav = false
-	// 	}else {
-	// 		var returnSliderNav = true
-	// 	}
-		
-	// 	if ( sliderPag == 'true' || sliderPag == '1' ) {
-	// 		var returnSliderPag = true
-	// 	}else {
-	// 		var returnSliderPag = false
-	// 	}
-		
-	// 	if ( sliderProgressBar == 'true' || sliderProgressBar == '1' ) {
-	// 		var returnSliderProgressBar = progressBar
-	// 		var returnAutoPlay = false
-	// 	}else {
-	// 		var returnSliderProgressBar = false
-	// 		var returnAutoPlay = true
-	// 	}
-		
-	// 	owl.owlCarousel({
-	// 		navigation : returnSliderNav,
-	// 		pagination: returnSliderPag,
-	// 		slideSpeed : 400,
-	// 		paginationSpeed : 400,
-	// 		lazyLoad : true,
-	// 		singleItem: true,
-	// 		autoHeight : true,
-	// 		autoPlay: returnAutoPlay,
-	// 		stopOnHover: returnAutoPlay,
-	// 		transitionStyle : "fade",
-	// 		afterInit : returnSliderProgressBar,
-	// 		afterMove : moved,
-	// 		startDragging : pauseOnDragging
-	// 	});
-		
-	// });
+	var $touchSlider = $('#touch-slider-us');
+	if ($touchSlider) {
+		$touchSlider.each(function(){
+			var owl = jQuery(this),
+				sliderNav = $(this).attr('data-slider-navigation'),
+				sliderPag = $(this).attr('data-slider-pagination'),
+				sliderProgressBar = $(this).attr('data-slider-progress-bar');
 
-    function progressBar(elem){
-		$elem = elem;
-		buildProgressBar();
-		start();
-    }
-	
-    function buildProgressBar(){
-		$progressBar = $("<div>",{
-			id:"progressBar"
-		});
-		$bar = $("<div>",{
-			id:"bar"
-		});
-		$progressBar.append($bar).prependTo($elem);
-    }
-	
-	function start() {
-		percentTime = 0;
-		isPause = false;
-		tick = setInterval(interval, 10);
-    };
- 
-    function interval() {
-		if(isPause === false){
-			percentTime += 1 / time;
-			$bar.css({
-				width: percentTime+"%"
-			});
-			if(percentTime >= 100){
-				$elem.trigger('owl.next')
+			if ( sliderNav == 'false' || sliderNav == '0' ) {
+				var returnSliderNav = false
+			} else {
+				var returnSliderNav = true
 			}
-		}
-    }
-	
-    function pauseOnDragging(){
-      isPause = true;
-    }
-	
-    function moved(){
-      clearTimeout(tick);
-      start();
-    }
-	
-	
-	
+			
+			if ( sliderPag == 'true' || sliderPag == '1' ) {
+				var returnSliderPag = true
+			}else {
+				var returnSliderPag = false
+			}
+			
+			if ( sliderProgressBar == 'true' || sliderProgressBar == '1' ) {
+				var returnSliderProgressBar = progressBar
+				var returnAutoPlay = false
+			}else {
+				var returnSliderProgressBar = false
+				var returnAutoPlay = true
+			}
+			
+			owl.owlCarousel({
+				navigation : returnSliderNav,
+				pagination: returnSliderPag,
+				slideSpeed : 400,
+				paginationSpeed : 400,
+				lazyLoad : true,
+				singleItem: true,
+				autoHeight : true,
+				autoPlay: returnAutoPlay,
+				stopOnHover: returnAutoPlay,
+				transitionStyle : "fade",
+			});
+		});
+	}
+
 	////------- Projects Carousel
 	// $(".projects-carousel").owlCarousel({
 	// 	navigation : true,

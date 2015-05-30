@@ -9,7 +9,8 @@
 
     <meta name="description" content="">
     <meta name="author" content="Oscar Larriega <larriega@gmail.com>">
-    <link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800">
+    <!--<link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800">-->
+    <link href='http://fonts.googleapis.com/css?family=Open+Sans:300italic,400' rel='stylesheet' type='text/css'>
     <link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Lora:400,700,400italic,700italic">
     <link rel="stylesheet" href="{{ asset('css/main.min.css') }}" type="text/css" media="screen">
 </head>
@@ -53,12 +54,7 @@
                         <ul class="nav navbar-nav navbar-right">
                             <?php $currentUrl = Route::current()->uri(); ?>
                             <li><a {{ $currentUrl === '/' ? 'class=active' : '' }} href="{{ url('/') }}">Inicio</a></li>
-                            <li>
-                                <a href="#">Nosotros</a>
-                                <ul class="dropdown">
-                                    <li><a href="#">Muy Pronto</a></li>
-                                </ul>
-                            </li>
+                            <li><a {{ $currentUrl === 'nosotros' ? 'class=active' : '' }} href="{{ url('nosotros') }}">Nosotros</a></li>
                             <li>
                                 <a href="#">Eventos</a>
                                 <ul class="dropdown">

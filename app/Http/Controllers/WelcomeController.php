@@ -13,6 +13,11 @@ class WelcomeController extends Controller {
 		return view('welcome');
 	}
 
+	public function nosotros()
+	{
+		return view('nosotros');
+	}
+
 	public function contacto()
 	{
 		return view('contact');
