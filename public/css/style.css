@@ -2648,7 +2648,7 @@ footer address {
 	padding-bottom:40px !important;
 }
 .img-team {
-	background: url('../images/parallax_nosotors.jpg') center top no-repeat fixed;
+	background: url('../images/parallax/parallax_nosotors.jpg') center top no-repeat fixed;
 	font-size: smaller;
 	margin-top: 40px;
 }
