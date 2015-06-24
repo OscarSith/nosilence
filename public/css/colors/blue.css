@@ -252,19 +252,19 @@ ul.icons-list li i {
 }
 
 .portfolio-item:hover .portfolio-details h4 {
-	color: #193860;
+	color: #6FE7E3;
 }
 
 .project-content h4 span {
-	border-bottom-color: #193860;
+	border-bottom-color: #6FE7E3;
 }
 
 .recent-projects h4.title span {
-	border-bottom-color: #193860;
+	border-bottom-color: #6FE7E3;
 }
 
 ul.post-meta li a:hover {
-	color: #193860;
+	color: #6FE7E3;
 }
 
 #pagination span.current {
@@ -367,8 +367,6 @@ ul.post-meta li a:hover {
 .team-member.modern .member-photo:after {
     background-color: #193860;
 }
-
-
 
 .twitter-widget a {
 	color: #193860;

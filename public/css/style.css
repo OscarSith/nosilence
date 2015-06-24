@@ -2648,7 +2648,7 @@ footer address {
 	padding-bottom:40px !important;
 }
 .img-team {
-	background: url('../images/parallax/parallax_nosotors.jpg') center top no-repeat fixed;
+	/*background: url('../images/parallax/parallax_nosotors.jpg') center top no-repeat fixed;*/
 	font-size: smaller;
 	margin-top: 40px;
 }
@@ -2679,10 +2679,16 @@ footer address {
     padding-left: 10px;
     margin-top: 25px
 }
+.tline-item-content {
+	width: 50%;
+}
 @media (max-width: 992px) {
 	.team-content {
 		text-align: center;
 		padding-left: 0 !important;
+	}
+	.tline-item-content {
+		width: 70%;
 	}
 }
 @media (min-width: 992px) {
@@ -2690,4 +2696,177 @@ footer address {
         width: 20%;
         float: left;
     }
+}
+
+.parallax-window {
+    min-height: 400px;
+    background: transparent;
+}
+.quincianero {
+	background: url(../images/parallax/parallax_15.jpg) no-repeat;
+	background-attachment: fixed;
+	padding: 170px 0;
+}
+.page-wrapper {
+	background-color: #F9F9F9;
+	clear: both;
+	float: none;
+	padding: 80px 0;
+	position: relative;
+}
+.page-wrapper .row:last-child {
+	margin-bottom: 0;
+}
+.page-wrapper h1.title {
+	letter-spacing: 1px;
+	margin:0 0 20px 0;
+}
+.page-wrapper .tagline {
+	margin-top:-10px;
+	font-weight:300;
+	margin-bottom:30px;
+}
+.page-wrapper .tagline:before {
+	content:'';
+	display:block;
+	height:1px;
+	width:40px;
+	background-color:#20b2aa;
+	margin:15px auto 10px auto;
+	-webkit-animation:title-border .5s ease-in;
+	-moz-animation:title-border .5s ease-in;
+	-o-animation:title-border .5s ease-in;
+	animation: title-border .5s ease-in;
+}
+.tline-holder {
+	margin: 0 auto;
+	padding: 0px;
+	padding-top: 20px;
+	width: 100%;
+	position: relative;
+	overflow: hidden;
+	list-style: none;
+}
+.tline-holder:before {
+	background: #E4E4E4;
+	bottom: 0px;
+	content: "";
+	height: 9999px;
+	left: 50%;
+	margin-left: -1px;
+	position: absolute;
+	top: 20px;
+	width: 1px;
+}
+.tline-item-left {
+	float: left;
+	position: relative;
+}
+.tline-item-left .tline-item-content {
+	float: left;
+}
+.tline-item-left .date-icon {
+	background-color: #303543;
+	color: #FFF;
+	float: right;
+	margin-right: -20px;
+}
+.tline-item-right .date-icon {
+	margin-left: -20px;
+	float: left;
+}
+.tline-item-txt {
+	background: #FFF;
+	border: 1px solid #E4E4E4;
+	margin-top: -20px;
+	padding: 20px;
+	position: relative;
+}
+.tline-item-left .tline-item-txt {
+	margin-right: 60px;
+}
+.tline-item-right .tline-item-txt {
+	margin-left: 60px;
+}
+.date-icon {
+	-moz-border-radius: 100%;
+	-webkit-border-radius: 100%;
+	background-color: #20B2AA;
+	border-radius: 100%;
+	color: #FFF;
+	height: 40px;
+	padding-top: 12px;
+	text-align: center;
+	width: 40px;
+}
+.tline-item-txt h3 {
+	text-transform: uppercase;
+	font-size: 17px;
+	margin-top: 10px;
+}
+p:last-child {
+  margin-bottom: 0;
+}
+.tline-item-right {
+	float: right;
+	position: relative;
+}
+.tline-item-right .tline-item-content {
+	float: right;
+}
+.tline-start {
+	background: #F9F9F9;
+	float: left;
+	padding: 0px;
+	position: relative;
+	width: 100%;
+}
+.tline-start-content {
+	text-align: center;
+	background: #F9F9F9;
+}
+.tline-start .tline-start-icon {
+  margin: 0 auto;
+  margin-bottom: 20px;
+  width: 12px;
+  height: 12px;
+  background: #E4E4E4;
+  border-radius: 100%;
+  -moz-border-radius: 100%;
+  -webkit-border-radius: 100%;
+}
+.green-nosilence {
+	color: #73E8F0 !important
+}
+
+.recent-projects h4.title {
+	margin-bottom: 16px;
+	padding-bottom: 8px;
+	border-bottom: 1px solid #eee;
+}
+
+.recent-projects h4.title span {
+	padding-bottom: 8px;
+	border-bottom: 1px solid;
+}
+
+.projects-carousel {
+	width: 1150px !important;
+}
+.projects-carousel .item {
+  margin-right: 15px;
+  margin-bottom: 0;
+}
+.portfolio-item .portfolio-border {
+  padding: 3px;
+  border: 1px solid #EEE;
+  border-radius: 3px;
+  -webkit-border-radius: 3px;
+  -moz-border-radius: 3px;
+  -o-border-radius: 3px;
+  overflow: hidden;
+  transition: all 0.3s ease-in-out;
+  -moz-transition: all 0.3s ease-in-out;
+  -webkit-transition: all 0.3s ease-in-out;
+  -o-transition: all 0.3s ease-in-out;
 }

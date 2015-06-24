@@ -13,6 +13,11 @@ class WelcomeController extends Controller {
 		return view('welcome');
 	}
 
+	public function events()
+	{
+		return view('eventos');
+	}
+
 	public function nosotros()
 	{
 		return view('nosotros');

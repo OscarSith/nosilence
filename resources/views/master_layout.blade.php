@@ -56,13 +56,14 @@
                             <li><a {{ $currentUrl === '/' ? 'class=active' : '' }} href="{{ url('/') }}">Inicio</a></li>
                             <li><a {{ $currentUrl === 'nosotros' ? 'class=active' : '' }} href="{{ url('nosotros') }}">Nosotros</a></li>
                             <li>
-                                <a href="#">Eventos</a>
+                                <a {{ $currentUrl === 'eventos' ? 'class=active' : '' }} href="{{ url('eventos') }}">Eventos</a>
+                                <!-- <a href="#">Eventos</a>
                                 <ul class="dropdown">
                                     <li><a href="#">Muy Pronto</a></li>
-                                    <!-- <li><a href="#">Quinciañeros</a></li>
+                                    <li><a href="#">Quinciañeros</a></li>
                                     <li><a href="#">Fiestas Privadas</a></li>
-                                    <li><a href="#">Fiesta de Prom</a></li> -->
-                                </ul>
+                                    <li><a href="#">Fiesta de Prom</a></li>
+                                </ul> -->
                             </li>
                             <li><a {{ $currentUrl === 'servicios' ? 'class=active' : '' }} href="{{ url('servicios') }}">Servicios</a></li>
                             <li><a {{ $currentUrl == 'testimonios' ? 'class=active' : '' }} href="{{ url('testimonios') }}">Testimonios</a></li>
@@ -151,7 +152,7 @@
     <script type="text/javascript" src="{{ asset('js/jquery.lettering.js') }}"></script>
     <!--<script type="text/javascript" src="js/jquery.easypiechart.min.js"></script>-->
     <!--<script type="text/javascript" src="js/jquery.nicescroll.min.js"></script>-->
-    <script type="text/javascript" src="{{ asset('js/jquery.parallax.js') }}"></script>
+    <!--<script type="text/javascript" src="{{ asset('bower_components/parallax.js/parallax.min.js') }}"></script>-->
     <!--<script type="text/javascript" src="js/mediaelement-and-player.js"></script>-->
     <script type="text/javascript" src="{{ asset('js/script.js') }}"></script>
 
