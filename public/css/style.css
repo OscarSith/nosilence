@@ -2835,6 +2835,33 @@ p:last-child {
   -moz-border-radius: 100%;
   -webkit-border-radius: 100%;
 }
+.tline-item-txt:before,.tline-item-txt:after {
+	content:" ";
+	position:absolute;
+	top:24px;
+	display:block;
+	width:0;
+	height:0;
+	border-top:solid 15px transparent;
+	border-bottom:solid 15px transparent;
+}
+.tline-item-left .tline-item-txt:before,.tline-item-left .tline-item-txt:after {
+	right:-18px;
+	border-left:solid 20px #fff;
+}
+.tline-item-left .tline-item-txt:before {
+	right:-20px;
+	border-left-color:#e4e4e4;
+}
+.tline-item-right .tline-item-txt:before,.tline-item-right .tline-item-txt:after {
+	left:-18px;
+	border-right:solid 20px #fff;
+}
+.tline-item-right .tline-item-txt:before {
+	left:-20px;
+	border-right-color:#e4e4e4;
+}
+
 .green-nosilence {
 	color: #73E8F0 !important
 }
