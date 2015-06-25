@@ -2705,7 +2705,7 @@ footer address {
 .quincianero {
 	background: url(../images/parallax/parallax_15.jpg) no-repeat;
 	background-attachment: fixed;
-	padding: 170px 0;
+	padding: 220px 0;
 }
 .page-wrapper {
 	background-color: #F9F9F9;
@@ -2766,8 +2766,6 @@ footer address {
 	float: left;
 }
 .tline-item-left .date-icon {
-	background-color: #303543;
-	color: #FFF;
 	float: right;
 	margin-right: -20px;
 }
@@ -2791,7 +2789,7 @@ footer address {
 .date-icon {
 	-moz-border-radius: 100%;
 	-webkit-border-radius: 100%;
-	background-color: #20B2AA;
+	background-color: #6FE7E3;
 	border-radius: 100%;
 	color: #FFF;
 	height: 40px;
@@ -2896,4 +2894,7 @@ p:last-child {
   -moz-transition: all 0.3s ease-in-out;
   -webkit-transition: all 0.3s ease-in-out;
   -o-transition: all 0.3s ease-in-out;
+}
+.portfolio-details {
+	text-align: center;
 }

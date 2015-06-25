@@ -5,7 +5,7 @@
 </div>
 <section id="tline" class="page-wrapper gray">
 <div class="container">
-	<h1 class="title text-center green-nosilence">FIESTA DE 15</h1>
+	<h1 class="title text-center"><img src="images/titulo_mis_15.png" alt="Titulo mis 15 años"></h1>
 	<p class="tagline text-center">
 		 Sabemos que tu fiesta de 15 no es solo una noche de fiesta, es la NOCHE en que<br>tus sueños se hacen realidad.
 	</p>
@@ -15,7 +15,7 @@
 				<!-- tline ITEM-->
 				<li class="tline-item-left wow fadeInLeft animated" style="visibility: visible; animation-name: fadeInLeft; -webkit-animation-name: fadeInLeft;">
 				<div class="tline-item-content">
-					<div class="date-icon fa fa-rocket">
+					<div class="date-icon fa fa-check">
 					</div>
 					<div class="tline-item-txt text-right">
 						<!--<div class="meta">
@@ -32,7 +32,7 @@
 				<!-- tline-->
 				<li class="tline-item-right wow fadeInRight animated" style="visibility: visible; animation-name: fadeInRight; -webkit-animation-name: fadeInRight;">
 				<div class="tline-item-content">
-					<div class="date-icon fa fa-camera">
+					<div class="date-icon fa fa-check">
 					</div>
 					<div class="tline-item-txt text-left">
 						<p>
@@ -45,7 +45,7 @@
 				<!-- tline-->
 				<li class="tline-item-left wow fadeInLeft animated" style="visibility: visible; animation-name: fadeInLeft; -webkit-animation-name: fadeInLeft;">
 				<div class="tline-item-content">
-					<div class="date-icon fa fa-user">
+					<div class="date-icon fa fa-check">
 					</div>
 					<div class="tline-item-txt text-right">
 						<p>
@@ -58,7 +58,7 @@
 				<!-- tline-->
 				<li class="tline-item-right wow fadeInRight animated" style="visibility: visible; animation-name: fadeInRight; -webkit-animation-name: fadeInRight;">
 				<div class="tline-item-content">
-					<div class="date-icon fa fa-bullhorn">
+					<div class="date-icon fa fa-check">
 					</div>
 					<div class="tline-item-txt text-left">
 						<p>
@@ -69,7 +69,7 @@
 				</li>
 				<li class="tline-item-left wow fadeInLeft animated" style="visibility: visible; animation-name: fadeInLeft; -webkit-animation-name: fadeInLeft;">
 				<div class="tline-item-content">
-					<div class="date-icon fa fa-user">
+					<div class="date-icon fa fa-check">
 					</div>
 					<div class="tline-item-txt text-right">
 						<p>
@@ -80,7 +80,7 @@
 				</li>
 				<li class="tline-item-right wow fadeInRight animated" style="visibility: visible; animation-name: fadeInRight; -webkit-animation-name: fadeInRight;">
 				<div class="tline-item-content">
-					<div class="date-icon fa fa-bullhorn">
+					<div class="date-icon fa fa-check">
 					</div>
 					<div class="tline-item-txt text-left">
 						<p>
@@ -91,7 +91,7 @@
 				</li>
 				<li class="tline-item-left wow fadeInLeft animated" style="visibility: visible; animation-name: fadeInLeft; -webkit-animation-name: fadeInLeft;">
 				<div class="tline-item-content">
-					<div class="date-icon fa fa-user">
+					<div class="date-icon fa fa-check">
 					</div>
 					<div class="tline-item-txt text-right">
 						<p>
@@ -122,222 +122,133 @@
 	<div class="row">
 		<div class="col-sm-12">
 			<div class="recent-projects">
-					<h4 class="title green-nosilence"><span>Fiestas Temáticas</span></h4>
-					<div class="projects-carousel touch-carousel">
-						<div class="portfolio-item item">
-							<div class="portfolio-border">
-								<div class="portfolio-thumb">
-									<a class="lightbox" data-lightbox-type="ajax" href="https://vimeo.com/78468485">
-										<div class="thumb-overlay"><i class="fa fa-play"></i></div>
-										<img alt="" src="images/Portfolio-1/1.png" />
-									</a>
-								</div>
-								<div class="portfolio-details">
-									<a href="#">
-										<h4>Lorem Ipsum Dolor</h4>
-										<span>Website</span>
-										<span>Drawing</span>
-									</a>
-								</div>
+				<h4 class="title green-nosilence"><span>Fiestas Temáticas</span></h4>
+				<div class="projects-carousel touch-carousel">
+					<div class="portfolio-item item">
+						<div class="portfolio-border">
+							<div class="portfolio-thumb">
+								<img alt="" src="images/tematica/1TOMORROWLAND.png" />
+							</div>
+							<div class="portfolio-details">
+								<span>TOMORROWLAND</span>
 							</div>
 						</div>
-						
-						<div class="portfolio-item item">
-							<div class="portfolio-border">
-								<div class="portfolio-thumb">
-									<a class="lightbox" title="This is an image title" href="images/portfolio-big-01.jpg">
-										<div class="thumb-overlay"><i class="fa fa-arrows-alt"></i></div>
-										<img alt="" src="images/Portfolio-1/2.png" />
-									</a>
-								</div>
-								<div class="portfolio-details">
-									<a href="#">
-										<h4>Lorem Ipsum Dolor</h4>
-										<span>Logo</span>
-										<span>Animation</span>
-									</a>
-								</div>
+					</div>
+					<div class="portfolio-item item">
+						<div class="portfolio-border">
+							<div class="portfolio-thumb">
+								<img alt="" src="images/tematica/2FIESTA EN LAS VEGAS.png" />
+							</div>
+							<div class="portfolio-details">
+								<span>FIESTA EN LAS VEGAS</span>
 							</div>
 						</div>
-						
-						<div class="portfolio-item item">
-							<div class="portfolio-border">
-								<div class="portfolio-thumb">
-									<a href="#">
-										<div class="thumb-overlay"><i class="fa fa-arrows-alt"></i></div>
-										<img alt="" src="images/Portfolio-1/3.png" />
-									</a>
-								</div>
-								<div class="portfolio-details">
-									<a href="#">
-										<h4>Lorem Ipsum Dolor</h4>
-										<span>Drawing</span>
-									</a>
-								</div>
+					</div>
+					<div class="portfolio-item item">
+						<div class="portfolio-border">
+							<div class="portfolio-thumb">
+								<a class="lightbox">
+									<div class="thumb-overlay"><i class="fa fa-arrors-alt"></i></div>
+									<img alt="" src="images/tematica/3FIESTA LUAU.png" />
+								</a>
+							</div>
+							<div class="portfolio-details">
+								<span>FIESTA LUAU</span>
 							</div>
 						</div>
-						
-						<div class="portfolio-item item">
-							<div class="portfolio-border">
-								<div class="portfolio-thumb">
-									<a href="#">
-										<div class="thumb-overlay"><i class="fa fa-arrows-alt"></i></div>
-										<img alt="" src="images/Portfolio-1/4.png" />
-									</a>
-								</div>
-								<div class="portfolio-details">
-									<a href="#">
-										<h4>Lorem Ipsum Dolor</h4>
-										<span>Website</span>
-										<span>Ilustration</span>
-									</a>
-								</div>
+					</div>
+					<div class="portfolio-item item">
+						<div class="portfolio-border">
+							<div class="portfolio-thumb">
+								<img alt="" src="images/tematica/4FIESTA HINDU.png" />
+							</div>
+							<div class="portfolio-details">
+								<span>FIESTA HINDU</span>
 							</div>
 						</div>
-						
-						<div class="portfolio-item item">
-							<div class="portfolio-border">
-								<div class="portfolio-thumb">
-									<a class="lightbox" title="This is an image title" href="images/portfolio-big-02.jpg">
-										<div class="thumb-overlay"><i class="fa fa-arrows-alt"></i></div>
-										<img alt="" src="images/Portfolio-1/5.png" />
-									</a>
-								</div>
-								<div class="portfolio-details">
-									<a href="#">
-										<h4>Lorem Ipsum Dolor</h4>
-										<span>Logo</span>
-										<span>Drawing</span>
-									</a>
-								</div>
+					</div>
+					<div class="portfolio-item item">
+						<div class="portfolio-border">
+							<div class="portfolio-thumb">
+								<img alt="" src="images/tematica/5CIRCUS PARTY.png" />
+							</div>
+							<div class="portfolio-details">
+								<span>CIRCUS PARTY</span>
 							</div>
 						</div>
-						
-						<div class="portfolio-item item">
-							<div class="portfolio-border">
-								<div class="portfolio-thumb">
-									<a href="#">
-										<div class="thumb-overlay"><i class="fa fa-arrows-alt"></i></div>
-										<img alt="" src="images/Portfolio-1/6.png" />
-									</a>
-								</div>
-								<div class="portfolio-details">
-									<a href="#">
-										<h4>Lorem Ipsum Dolor</h4>
-										<span>Animation</span>
-									</a>
-								</div>
+					</div>
+					<div class="portfolio-item item">
+						<div class="portfolio-border">
+							<div class="portfolio-thumb">
+								<img alt="" src="images/tematica/6FIESTA DISCO.png" />
+							</div>
+							<div class="portfolio-details">
+								<span>FIESTA DISCO</span>
 							</div>
 						</div>
-						
-						<div class="portfolio-item item">
-							<div class="portfolio-border">
-								<div class="portfolio-thumb">
-									<a class="lightbox" title="This is an image title" href="images/portfolio-big-03.jpg">
-										<div class="thumb-overlay"><i class="fa fa-arrows-alt"></i></div>
-										<img alt="" src="images/Portfolio-1/7.png" />
-									</a>
-								</div>
-								<div class="portfolio-details">
-									<a href="#">
-										<h4>Lorem Ipsum Dolor</h4>
-										<span>Website</span>
-									</a>
-								</div>
+					</div>
+					<div class="portfolio-item item">
+						<div class="portfolio-border">
+							<div class="portfolio-thumb">
+								<img alt="" src="images/tematica/7FIESTA VINTAGE.png" />
+							</div>
+							<div class="portfolio-details">
+								<span>FIESTA VINTAGE</span>
 							</div>
 						</div>
-						
-						<div class="portfolio-item item">
-							<div class="portfolio-border">
-								<div class="portfolio-thumb">
-									<a href="#">
-										<div class="thumb-overlay"><i class="fa fa-arrows-alt"></i></div>
-										<img alt="" src="images/Portfolio-1/8.png" />
-									</a>
-								</div>
-								<div class="portfolio-details">
-									<a href="#">
-										<h4>Lorem Ipsum Dolor</h4>
-										<span>Ilustration</span>
-										<span>Animation</span>
-									</a>
-								</div>
+					</div>
+					<div class="portfolio-item item">
+						<div class="portfolio-border">
+							<div class="portfolio-thumb">
+								<img alt="" src="images/tematica/8HOLLYWOOD.png" />
+							</div>
+							<div class="portfolio-details">
+								<span>HOLLYWOOD</span>
 							</div>
 						</div>
-
-                        <div class="portfolio-item item">
-							<div class="portfolio-border">
-								<div class="portfolio-thumb">
-									<a href="#">
-										<div class="thumb-overlay"><i class="fa fa-arrows-alt"></i></div>
-										<img alt="" src="images/Portfolio-1/9.png" />
-									</a>
-								</div>
-								<div class="portfolio-details">
-									<a href="#">
-										<h4>Lorem Ipsum Dolor</h4>
-										<span>Ilustration</span>
-										<span>Animation</span>
-									</a>
-								</div>
+					</div>
+					<div class="portfolio-item item">
+						<div class="portfolio-border">
+							<div class="portfolio-thumb">
+								<img alt="" src="images/tematica/9PARTY IN THE SKY.png" />
+							</div>
+							<div class="portfolio-details">
+								<span>PARTY IN THE SKY</span>
 							</div>
 						</div>
-
-                        <div class="portfolio-item item">
-							<div class="portfolio-border">
-								<div class="portfolio-thumb">
-									<a href="#">
-										<div class="thumb-overlay"><i class="fa fa-arrows-alt"></i></div>
-										<img alt="" src="images/Portfolio-1/10.png" />
-									</a>
-								</div>
-								<div class="portfolio-details">
-									<a href="#">
-										<h4>Lorem Ipsum Dolor</h4>
-										<span>Ilustration</span>
-										<span>Animation</span>
-									</a>
-								</div>
+					</div>
+					<div class="portfolio-item item">
+						<div class="portfolio-border">
+							<div class="portfolio-thumb">
+								<img alt="" src="images/tematica/10GLOW PARTY.png" />
+							</div>
+							<div class="portfolio-details">
+								<span>GLOW PARTY</span>
 							</div>
 						</div>
-
-                        <div class="portfolio-item item">
-							<div class="portfolio-border">
-								<div class="portfolio-thumb">
-									<a href="#">
-										<div class="thumb-overlay"><i class="fa fa-arrows-alt"></i></div>
-										<img alt="" src="images/Portfolio-1/11.png" />
-									</a>
-								</div>
-								<div class="portfolio-details">
-									<a href="#">
-										<h4>Lorem Ipsum Dolor</h4>
-										<span>Ilustration</span>
-										<span>Animation</span>
-									</a>
-								</div>
+					</div>
+                    <div class="portfolio-item item">
+						<div class="portfolio-border">
+							<div class="portfolio-thumb">
+								<img alt="" src="images/tematica/11FIESTA EN PARIS.png" />
+							</div>
+							<div class="portfolio-details">
+								<span>FIESTA EN PARIS</span>
 							</div>
 						</div>
-
-                        <div class="portfolio-item item">
-							<div class="portfolio-border">
-								<div class="portfolio-thumb">
-									<a href="#">
-										<div class="thumb-overlay"><i class="fa fa-arrows-alt"></i></div>
-										<img alt="" src="images/Portfolio-1/12.png" />
-									</a>
-								</div>
-								<div class="portfolio-details">
-									<a href="#">
-										<h4>Lorem Ipsum Dolor</h4>
-										<span>Ilustration</span>
-										<span>Animation</span>
-									</a>
-								</div>
+					</div>
+                    <div class="portfolio-item item">
+						<div class="portfolio-border">
+							<div class="portfolio-thumb">
+								<img alt="" src="images/tematica/12FIESTA PRIMAVERAL.png" />
+							</div>
+							<div class="portfolio-details">
+								<span>FIESTA PRIMAVERAL</span>
 							</div>
 						</div>
 					</div>
 				</div>
+			</div>
 		</div>
 	</div>
 </div>
