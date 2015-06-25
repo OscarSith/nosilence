@@ -1,4 +1,4 @@
-.accent-color, a, .top-bar a:hover, .service-box .read-more {
+.accent-color, .top-bar a:hover, .service-box .read-more {
 	color: #6FE7E3;
 }
 
@@ -341,11 +341,11 @@ ul.post-meta li a:hover {
 
 
 .counter-item i {
-    color: #6FE7E3;
+    color: #333;
 }
 
 .timer {
-    color: #6FE7E3;
+    color: #333;
 }
 
 .progress-bar {

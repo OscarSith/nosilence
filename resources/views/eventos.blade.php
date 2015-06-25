@@ -112,7 +112,7 @@
 						<br>
 						<p>CATÁLOGO DE EVENTOS</p>
 						<br>
-						<a href="#" class="btn btn-default">DESCARGAR</a>
+						<a href="#" class="btn btn-default btn-system">DESCARGAR</a>
 					</div>
 				</div>
 				</li>
