@@ -3,6 +3,7 @@
 @section('content')
 <section class="container">
 	<h2 class="page-header">Testimonios</h2>
+	{!! $testimonials->render() !!}
 	<table class="table">
 		<thead>
 			<tr>
@@ -13,7 +14,7 @@
 			</tr>
 		</thead>
 		<tbody>
-		@if(!$testimonials->isEmpty())
+		@if( ! $testimonials->isEmpty())
 		@foreach($testimonials as $rec)
 			<tr data-id="{{ $rec->id }}" {{ $rec->estado === 'N' ? 'class=warning' : '' }}>
 				<td>{{ $rec->autor }}</td>
@@ -48,6 +49,7 @@
 		@endif
 		</tbody>
 	</table>
+	{!! $testimonials->render() !!}
 	<div class="modal fade" id="modal-aceptar">
 		<div class="modal-dialog modal-sm">
 			<div class="modal-content">

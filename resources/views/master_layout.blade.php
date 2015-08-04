@@ -157,6 +157,7 @@
     <script type="text/javascript" src="{{ asset('js/script.js') }}"></script>
 
     @yield('contact')
+    @yield('othet')
 
     <!--[if IE 8]><script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script><![endif]-->
     <!--[if lt IE 9]><script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script><![endif]-->

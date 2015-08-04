@@ -369,7 +369,7 @@ header {
 	position: fixed;
 	top: 0;
     width: 100%;
-	z-index: 9999999;
+	z-index: 999;
 	transition: all 0.4s ease-in-out;
     -moz-transition: all 0.4s ease-in-out;
     -webkit-transition: all 0.4s ease-in-out;
@@ -1613,6 +1613,7 @@ ul.icons-list li i {
     margin-bottom: -4px;
     padding: 0;
     text-align: center;
+    cursor: pointer;
     -webkit-transition: all 0.5s;
     -moz-transition: all 0.5s;
     -ms-transition: all 0.5s;
