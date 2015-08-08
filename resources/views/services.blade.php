@@ -47,7 +47,7 @@
 		                <span class="header">Control de Ingreso</span>
 		            </div>
 		        </li>
-		        <li data-toggle="modal" data-target="#modal-service" data-link="servicios_web-20.jpg">
+		        <li data-toggle="modal" data-target="#modal-service" data-link="servicios_web-12.jpg">
 		            <img src="images/portfolio/9-Sonido Profesional.png" alt="Iluminación, efectos y sonido profesional">
 		            <div class="portfolio-item-content">
 		                <span class="header">Iluminación, efectos y sonido profesional</span>
@@ -68,7 +68,7 @@
 		        <li data-toggle="modal" data-target="#modal-service" data-link="servicios_web-10.jpg">
 		            <img src="images/portfolio/13- Anfitrionaje y Recepcion.png" alt="Anfitrionaje y Recepcion" />
 		            <div class="portfolio-item-content">
-		                <span class="header">Anfitrionaje y Recepción</span>
+		                <span class="header">Recepción y Anfitrionaje</span>
 		            </div>
 		        </li>
 		        <li data-toggle="modal" data-target="#modal-service" data-link="servicios_web-08.jpg">
@@ -80,7 +80,7 @@
 		        <li data-toggle="modal" data-target="#modal-service" data-link="servicios_web-16.jpg">
 		            <img src="images/portfolio/15- Show de Robots Leds.png" alt="Show de Robots Leds" />
 		            <div class="portfolio-item-content">
-		                <span class="header">Robot Led</span>
+		                <span class="header">Show de Robot Led</span>
 		            </div>
 		        </li>
 		        <li data-toggle="modal" data-target="#modal-service" data-link="servicios_web-29.jpg">
@@ -89,7 +89,7 @@
 		                <span class="header">Boveda del Recuerdo</span>
 		            </div>
 		        </li>
-		        <li data-toggle="modal" data-target="#modal-service" data-link="servicios_web-12.jpg">
+		        <li data-toggle="modal" data-target="#modal-service" data-link="servicios_web-20.jpg">
 		            <img src="images/portfolio/16-Filmacion Profesional.png" alt="Filmacion Profesional" />
 		            <div class="portfolio-item-content">
 		                <span class="header">Filmación Profesional</span>
@@ -110,7 +110,7 @@
 		        <li data-toggle="modal" data-target="#modal-service" data-link="servicios_web-17.jpg">
 		            <img src="images/portfolio/19-Sesion Fotografica.png" alt="Sesion Fotografica" />
 		            <div class="portfolio-item-content">
-		                <span class="header">Sesion de Fotos</span>
+		                <span class="header">Sesion de Fotográfica</span>
 		            </div>
 		        </li>
 		        <li data-toggle="modal" data-target="#modal-service" data-link="servicios_web-07.jpg">
@@ -122,7 +122,7 @@
 		        <li data-toggle="modal" data-target="#modal-service" data-link="servicios_web-13.jpg">
 		            <img src="images/portfolio/23-Video Mapping.png" alt="Video Mapping" />
 		            <div class="portfolio-item-content">
-		                <span class="header">Mapping</span>
+		                <span class="header">Show Visual Mapping</span>
 		            </div>
 		        </li>
 		        <li data-toggle="modal" data-target="#modal-service" data-link="servicios_web-14.jpg">
@@ -158,7 +158,7 @@
 		        <li data-toggle="modal" data-target="#modal-service" data-link="servicios_web-24.jpg">
 		            <img src="images/portfolio/29-gracias personalizadas.png" alt="gracias personalizadas" />
 		            <div class="portfolio-item-content">
-		                <span class="header">Gracias Personalizadas</span>
+		                <span class="header">Tarjetas de Agradecimiento</span>
 		            </div>
 		        </li>
 		        <li data-toggle="modal" data-target="#modal-service" data-link="servicios_web-26.jpg">
@@ -176,7 +176,7 @@
 		        <li data-toggle="modal" data-target="#modal-service" data-link="servicios_web-03.jpg">
 		            <img src="images/portfolio/32-Sandwich Stations.png" alt="Sandwich Stations" />
 		            <div class="portfolio-item-content">
-		                <span class="header">Sandwich Stations</span>
+		                <span class="header">Sandwich Station</span>
 		            </div>
 		        </li>
 		        <li data-toggle="modal" data-target="#modal-service" data-link="servicios_web-23.jpg">
