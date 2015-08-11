@@ -2725,7 +2725,7 @@ footer address {
 .page-wrapper .tagline {
 	margin-top:-10px;
 	font-weight:300;
-	margin-bottom:30px;
+	margin-bottom:60px;
 }
 .page-wrapper .tagline:before {
 	content:'';
@@ -2898,4 +2898,7 @@ p:last-child {
 }
 .portfolio-details {
 	text-align: center;
+}
+#my15years {
+	margin-top: -112px;
 }
