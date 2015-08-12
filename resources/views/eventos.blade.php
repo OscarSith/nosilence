@@ -6,9 +6,6 @@
 <section id="tline" class="page-wrapper gray" style="padding-top:0">
 	<div class="container">
 		<h1 class="title text-center"><img src="images/titulo_mis_15.png" alt="Titulo mis 15 años" id="my15years"></h1>
-		<p class="tagline text-center">
-			 Sabemos que tu fiesta de 15 no es solo una noche de fiesta, es la NOCHE en que<br>tus sueños se hacen realidad.
-		</p>
 		<div class="row">
 			<div class="col-md-12">
 				<ul class="tline-holder">
@@ -106,7 +103,7 @@
 						<div class="tline-start-icon">
 						</div>
 						<div class="meta wow zoomIn animated" style="visibility: visible; animation-name: zoomIn; -webkit-animation-name: zoomIn;">
-							La atención personalizada d nuestro equipo de planeas y creativos harán realidad tu noche,<br>cuidando cada detalle y esmerándose por hacerte sentir a ti y a tu familia como un invitado más.
+							Sabemos que tu fiesta de 15 no es solo una noche de fiesta, es la NOCHE en que<br>tus sueños se hacen realidad.
 						</div>
 						<div class="text-center">
 							<br>
