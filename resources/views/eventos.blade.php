@@ -1,11 +1,20 @@
 @extends('master_layout')
 
 @section('content')
-<div class="section quincianero">
+<div class="section quincianero custom-banner">
 </div>
 <section id="tline" class="page-wrapper gray" style="padding-top:0">
+	<h1 class="title text-center"><img src="images/titulo_mis_15.png" alt="Titulo mis 15 años" id="my15years"></h1>
+	<div class="row" id="event_line_01">
+		<p class="container text-center">En este día atrevete a soñar, explora tus fantasías, abre los ojos a esta hermosa vida que tienes por delante y  vive  lindos momentos que nunca vas olvidar junto a tus familiares y amigos.</p>
+	</div>
+	<div id="info_heart" class="center-block box-info">
+		<div class="center-block">
+			<div class="date-icon date-icon-custom fa fa-heart"></div>
+		</div>
+		<p class="text-justify">Cuidamos al detalle el desarrollo de la fiesta de 15, desde el inicio somos parte de tu sueño acompañándote, guiando y produciendo esa noche especial. Nuestro equipo de planners estarán a tu lado desde la primera sesión de fotos hasta la última pieza de baile. De esta manera tú y tu familia disfrutarán al máximo de esta experiencia única en tu adolescencia.</p>
+	</div>
 	<div class="container">
-		<h1 class="title text-center"><img src="images/titulo_mis_15.png" alt="Titulo mis 15 años" id="my15years"></h1>
 		<div class="row">
 			<div class="col-md-12">
 				<ul class="tline-holder">
@@ -15,10 +24,6 @@
 						<div class="date-icon fa fa-check">
 						</div>
 						<div class="tline-item-txt text-right">
-							<!--<div class="meta">
-								 January 2015
-							</div>
-							<h3>Love Fashion</h3>-->
 							<p>
 								 Dá la bienvenida a tus invitados con una comparsa llena de color y alegría, con personajes temáticos y anfitriones que los guiarán hasta sus ubicaciones, mientras ellos esperan disfrutarán de un entretenido show de percusión que les brindará una recepción diferente.
 							</p>

@@ -14,6 +14,7 @@
 Route::get('/', 'WelcomeController@index');
 Route::get('nosotros', 'WelcomeController@nosotros');
 Route::get('eventos', 'WelcomeController@events');
+Route::get('fiesta-promo', 'WelcomeController@party');
 Route::get('servicios', 'WelcomeController@services');
 Route::get('contacto', 'WelcomeController@contacto');
 Route::get('testimonios', 'WelcomeController@testimonial');

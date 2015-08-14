@@ -18,6 +18,11 @@ class WelcomeController extends Controller {
 		return view('eventos');
 	}
 
+	public function party()
+	{
+		return view('fiesta_promo');
+	}
+
 	public function nosotros()
 	{
 		return view('nosotros');
