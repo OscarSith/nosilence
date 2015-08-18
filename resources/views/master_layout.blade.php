@@ -55,15 +55,13 @@
                             <?php $currentUrl = Route::current()->uri(); ?>
                             <li><a {{ $currentUrl === '/' ? 'class=active' : '' }} href="{{ url('/') }}">Inicio</a></li>
                             <li><a {{ $currentUrl === 'nosotros' ? 'class=active' : '' }} href="{{ url('nosotros') }}">Nosotros</a></li>
-                            <li>
-                                <a {{ $currentUrl === 'eventos' ? 'class=active' : '' }} href="{{ url('eventos') }}">Eventos</a>
-                                <!-- <a href="#">Eventos</a>
+                            <li class="drop">
+                                <a {{ ($currentUrl == 'quincianero' || $currentUrl == 'fiesta-promo' ) ? 'class=active' : '' }} href="#">Eventos <span class="caret"></span></a>
                                 <ul class="dropdown">
-                                    <li><a href="#">Muy Pronto</a></li>
-                                    <li><a href="#">Quinciañeros</a></li>
+                                    <li><a href="{{ url('quincianero') }}" {{ $currentUrl == 'quincianero' ? 'class=active' : '' }}>Quinciañeros</a></li>
+                                    <li><a href="{{ url('fiesta-promo') }}" {{ $currentUrl == 'fiesta-promo' ? 'class=active' : '' }}>Fiesta de Prom</a></li>
                                     <li><a href="#">Fiestas Privadas</a></li>
-                                    <li><a href="#">Fiesta de Prom</a></li>
-                                </ul> -->
+                                </ul>
                             </li>
                             <li><a {{ $currentUrl === 'servicios' ? 'class=active' : '' }} href="{{ url('servicios') }}">Servicios</a></li>
                             <li><a {{ $currentUrl == 'testimonios' ? 'class=active' : '' }} href="{{ url('testimonios') }}">Testimonios</a></li>

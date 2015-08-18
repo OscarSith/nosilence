@@ -2707,7 +2707,7 @@ footer address {
 	background: url(../images/parallax/parallax_15.jpg) no-repeat;
 }
 .quincianero {
-	background: url(../images/parallax/parallax_15.jpg) no-repeat;
+	background: url(../images/parallax/parallax_15.jpg) no-repeat 0 84px;
 }
 .custom-banner {
 	padding: 200px 0;
@@ -2967,4 +2967,14 @@ p:last-child {
 #dj {
 	position: absolute;
 	top: -50px;
+}
+#list-colleges img {
+	background-color: #fff;
+	margin-bottom: 15px
+}
+#list-colleges h5 {
+	font-size: 1.2em;
+	font-weight: 100;
+	margin-bottom: 20px;
+	margin-left: 15px;
 }

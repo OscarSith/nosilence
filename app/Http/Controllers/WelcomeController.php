@@ -13,7 +13,7 @@ class WelcomeController extends Controller {
 		return view('welcome');
 	}
 
-	public function events()
+	public function quincianero()
 	{
 		return view('eventos');
 	}

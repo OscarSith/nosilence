@@ -81,26 +81,15 @@
 					</div>
 					</li>
 					<li class="tline-item-right wow fadeInRight animated" style="visibility: visible; animation-name: fadeInRight; -webkit-animation-name: fadeInRight;">
-					<div class="tline-item-content">
-						<div class="date-icon fa fa-check">
+						<div class="tline-item-content">
+							<div class="date-icon fa fa-check">
+							</div>
+							<div class="tline-item-txt text-left">
+								<p>
+									Deliciosos bocaditos y aperitivos serán el preámbulo a una sofisticada cena a cargo de nuestros cheffs que junto a una atención profesional de mozos convertirán  la cena en un momento de placer y elegancia.
+								</p>
+							</div>
 						</div>
-						<div class="tline-item-txt text-left">
-							<p>
-								Deliciosos bocaditos y aperitivos serán el preámbulo a una sofisticada cena a cargo de nuestros cheffs que junto a una atención profesional de mozos convertirán  la cena en un momento de placer y elegancia.
-							</p>
-						</div>
-					</div>
-					</li>
-					<li class="tline-item-left wow fadeInLeft animated" style="visibility: visible; animation-name: fadeInLeft; -webkit-animation-name: fadeInLeft;">
-					<div class="tline-item-content">
-						<div class="date-icon fa fa-check">
-						</div>
-						<div class="tline-item-txt text-right">
-							<p>
-								Una responsable Barra Libre brindará bebidas a tus invitados toda la noche, desde Cuba Libre hasta Machu Pichu, pasando por mojitos y pisco sur, disfruta de los mejores y más delicioso tragos controlados responsablemente por nuestro staff de bartenders junto con nuestro equipo de supervisión y seguridad.
-							</p>
-						</div>
-					</div>
 					</li>
 					<!-- /tline-->
 					<li class="tline-start">
