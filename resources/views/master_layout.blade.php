@@ -56,11 +56,11 @@
                             <li><a {{ $currentUrl === '/' ? 'class=active' : '' }} href="{{ url('/') }}">Inicio</a></li>
                             <li><a {{ $currentUrl === 'nosotros' ? 'class=active' : '' }} href="{{ url('nosotros') }}">Nosotros</a></li>
                             <li class="drop">
-                                <a {{ ($currentUrl == 'quincianero' || $currentUrl == 'fiesta-promo' ) ? 'class=active' : '' }} href="#">Eventos <span class="caret"></span></a>
+                                <a {{ ($currentUrl == 'fiesta-15' || $currentUrl == 'fiesta-promo' ) ? 'class=active' : '' }} href="#">Eventos <span class="caret"></span></a>
                                 <ul class="dropdown">
-                                    <li><a href="{{ url('quincianero') }}" {{ $currentUrl == 'quincianero' ? 'class=active' : '' }}>Quinciañeros</a></li>
+                                    <li><a href="{{ url('fiesta-15') }}" {{ $currentUrl == 'fiesta-15' ? 'class=active' : '' }}>Fiesta de 15</a></li>
                                     <li><a href="{{ url('fiesta-promo') }}" {{ $currentUrl == 'fiesta-promo' ? 'class=active' : '' }}>Fiesta de Prom</a></li>
-                                    <li><a href="#">Fiestas Privadas</a></li>
+                                    <li><a href="#">Fiesta Privada</a></li>
                                 </ul>
                             </li>
                             <li><a {{ $currentUrl === 'servicios' ? 'class=active' : '' }} href="{{ url('servicios') }}">Servicios</a></li>

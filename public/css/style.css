@@ -663,13 +663,11 @@ ul.social-list li a i {
     font-family: 'Open Sans', sans-serif;
     padding: 11px 16px;
     text-decoration: none;
-    text-transform: capitalize;
     transition: padding 0.2s ease-in-out;
     -moz-transition: padding 0.2s ease-in-out;
     -webkit-transition: padding 0.2s ease-in-out;
     -o-transition: padding 0.2s ease-in-out;
 }
-
 
 .dropdown > li:hover > a, .sup-dropdown li:hover > a {
 	padding-left: 18px;
