@@ -45,10 +45,8 @@
 				<div class="col-sm-4"><img src="images/colegios/3.png" alt=""></div>
 				<div class="col-sm-4"><img src="images/colegios/4.png" alt=""></div>
 				<div class="col-sm-4"><img src="images/colegios/5.png" alt=""></div>
-				<div class="col-sm-4"><img src="images/colegios/6.png" alt=""></div>
 				<div class="col-sm-4"><img src="images/colegios/7.png" alt=""></div>
 				<div class="col-sm-4"><img src="images/colegios/8.png" alt=""></div>
-				<div class="col-sm-4"><img src="images/colegios/9.png" alt=""></div>
 			</div>
 		</div>
 	</div>
