@@ -468,6 +468,16 @@ $(".topbar-style").change(function(){
 // 	}
 // });
 
+$('.boxgrid').BlackAndWhite({
+	hoverEffect: true,
+	webworkerPath: false,
+	intensity: 1,
+	speed: {
+		fadeIn: 0,
+		fadeOut: 500
+	}
+});
+
 var wow = new WOW(
 	  {
 		boxClass:     'wow',      // animated element css class (default is wow)

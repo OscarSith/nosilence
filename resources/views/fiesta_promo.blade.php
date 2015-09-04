@@ -40,13 +40,27 @@
 		<div class="row">
 			<div class="col-sm-10 col-sm-offset-1" id="list-colleges">
 				<h5 class="green-custom">Nuestros clientes</h5>
-				<div class="col-sm-4"><img src="images/colegios/1.png" alt=""></div>
-				<div class="col-sm-4"><img src="images/colegios/2.png" alt=""></div>
-				<div class="col-sm-4"><img src="images/colegios/3.png" alt=""></div>
-				<div class="col-sm-4"><img src="images/colegios/4.png" alt=""></div>
-				<div class="col-sm-4"><img src="images/colegios/5.png" alt=""></div>
-				<div class="col-sm-4"><img src="images/colegios/7.png" alt=""></div>
-				<div class="col-sm-4"><img src="images/colegios/8.png" alt=""></div>
+				<div class="col-sm-4">
+					<div class="boxgrid"><img src="images/colegios/1.png" alt=""></div>
+				</div>
+				<div class="col-sm-4">
+					<div class="boxgrid"><img src="images/colegios/2.png" alt=""></div>
+				</div>
+				<div class="col-sm-4">
+					<div class="boxgrid"><img src="images/colegios/3.png" alt=""></div>
+				</div>
+				<div class="col-sm-4">
+					<div class="boxgrid"><img src="images/colegios/4.png" alt=""></div>
+				</div>
+				<div class="col-sm-4">
+					<div class="boxgrid"><img src="images/colegios/5.png" alt=""></div>
+				</div>
+				<div class="col-sm-4">
+					<div class="boxgrid"><img src="images/colegios/7.png" alt=""></div>
+				</div>
+				<div class="col-sm-4">
+					<div class="boxgrid"><img src="images/colegios/8.png" alt=""></div>
+				</div>
 			</div>
 		</div>
 	</div>

@@ -152,6 +152,7 @@
     <!--<script type="text/javascript" src="js/jquery.nicescroll.min.js"></script>-->
     <!--<script type="text/javascript" src="{{ asset('bower_components/parallax.js/parallax.min.js') }}"></script>-->
     <!--<script type="text/javascript" src="js/mediaelement-and-player.js"></script>-->
+    <script type="text/javascript" src="{{ asset('js/jquery.BlackAndWhite.min.js') }}"></script>
     <script type="text/javascript" src="{{ asset('js/script.js') }}"></script>
 
     @yield('contact')

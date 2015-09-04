@@ -2976,3 +2976,7 @@ p:last-child {
 	margin-bottom: 20px;
 	margin-left: 15px;
 }
+.boxgrid {
+	position:relative;
+    display:block;
+}
