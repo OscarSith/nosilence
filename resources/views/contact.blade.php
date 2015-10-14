@@ -52,7 +52,7 @@
 			<div class="col-md-4">
 				<h4 class="classic-title"><span>Información</span></h4>
 				<p>Av. Dos de Mayo 516 of. 201 - Miraflores</p>
-				<p>Av. Manuel Olgín 335 of. 1205 - Surco</p>
+				<p>Av. Manuel Olguin 335 of. 1205 - Surco</p>
 				<div class="hr1" style="margin-bottom:10px;"></div>
 				<ul class="icons-list">
 					<li><span><i class="fa fa-phone fa-lg"></i> Central:</span> 708 4101</li>

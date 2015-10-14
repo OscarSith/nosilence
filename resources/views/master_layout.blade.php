@@ -83,7 +83,7 @@
                             <img src="images/isotipo.png" alt="" class="img-responsive pull-left" width="110" style="margin-right: 28px">
                             <address>
                                 <p>Av. Dos de Mayo 516 of. 201 - Miraflores</p>
-                                <p>Av. Manuel Olgín 335 of. 1205 - Surco</p>
+                                <p>Av. Manuel Olguin 335 of. 1205 - Surco</p>
                                 <ul>
                                     <li style="margin-top: 2px;">
                                         <span><i class="fa fa-phone fa-lg"></i> Central:</span> 708 4101
