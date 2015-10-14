@@ -755,7 +755,7 @@ ul.social-list li a i {
 
 
 
-/*================================================== 
+/*==================================================
      Slideshow
  ================================================== */
 
@@ -823,7 +823,7 @@ ul.social-list li a i {
 	padding: 15px;
 }
 
-#main-slide .carousel-control .fa-angle-left, 
+#main-slide .carousel-control .fa-angle-left,
 #main-slide .carousel-control .fa-angle-right{
 	position: absolute;
 	top: 40%;
@@ -1006,7 +1006,7 @@ input[type="submit"] {
     width: 100%;
     padding: 7px 14px;
     display: block;
-    margin-bottom: 10px;  
+    margin-bottom: 10px;
 	transition: all 0.4s ease-in-out;
     -moz-transition: all 0.4s ease-in-out;
     -webkit-transition: all 0.4s ease-in-out;
@@ -1635,22 +1635,22 @@ ul.icons-list li i {
 	-webkit-transition: transform 0.2s ease 0s, color 0.2s ease 0s;
 	-moz-transition: transform 0.2s ease 0s, color 0.2s ease 0s;
 	-o-transition: transform 0.2s ease 0s, color 0.2s ease 0s;
-	-ms-transition: transform 0.2s ease 0s, color 0.2s ease 0s;    
+	-ms-transition: transform 0.2s ease 0s, color 0.2s ease 0s;
 }
 
 
-@media only screen 
+@media only screen
 and (max-width : 550px) {
-    
+
      #portfolio-list li {
       width: 100%;
   }
 }
 
-@media only screen 
+@media only screen
 and (max-width : 767px)
 and (min-width : 551px){
-    
+
      #portfolio-list li {
       width: 49.9%;
   }
@@ -1720,7 +1720,7 @@ and (min-width : 551px){
     left: 0;
     height: 100%;
     width: 100%;
-    color: #050F1E; 
+    color: #050F1E;
    -webkit-transition: all 0.5s;
    -moz-transition: all 0.5s;
    -ms-transition: all 0.5s;
@@ -2050,7 +2050,7 @@ ul.footer-nav li a:hover {
 /*------------------------------------------*/
 
 
-/* 
+/*
  * 	Core Owl Carousel CSS
  *	v1.24
  */
@@ -2089,7 +2089,7 @@ ul.footer-nav li a:hover {
 	-o-transition: height 500ms ease-in-out;
 	transition: height 500ms ease-in-out;
 }
-	
+
 .owl-carousel .owl-item{
 	float: left;
 }
@@ -2107,7 +2107,7 @@ ul.footer-nav li a:hover {
 }
 
 /* mouse grab icon */
-.grabbing { 
+.grabbing {
     cursor:url(../images/icons/grabbing.png) 8 8, move;
 }
 
@@ -2284,7 +2284,7 @@ ul.footer-nav li a:hover {
 }
 
 /*
-* 	Owl Carousel Owl Theme 
+* 	Owl Carousel Owl Theme
 */
 
 .owl-theme .owl-controls{
@@ -2552,7 +2552,7 @@ ul.footer-nav li a:hover {
   position:relative;
 }
 
- .progress-bar-span { 
+ .progress-bar-span {
  opacity:1;
  position:absolute;
  top:-5px;
@@ -2565,7 +2565,7 @@ ul.footer-nav li a:hover {
   -moz-transition: all .5s ease-in-out;
   -o-transition: all .5s ease-in-out;
   -ms-transition: all .5s ease-in-out;
-  transition: all .5s ease-in-out; 
+  transition: all .5s ease-in-out;
  }
 
 .skill:hover .progress-bar-span {
@@ -2601,19 +2601,19 @@ ul.footer-nav li a:hover {
 }
 
 .parallax{
-  width:100%; 
+  width:100%;
   padding: 0;
   margin: 0;
   background-position: 50% 30%;
   background-attachment: fixed;
-  background-repeat: no-repeat;  
+  background-repeat: no-repeat;
 }
 .parallax-text-container-1 .parallax-text-item {
   padding:120px 0px;
   text-align:center;
 }
 .parallax-mobile {
-	background-position: 50% 0px !important; 
+	background-position: 50% 0px !important;
 	background-attachment: scroll !important;
 }
 /*

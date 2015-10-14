@@ -31,9 +31,7 @@
 	<div class="row" style="margin-top:3%">
 		<div class="text-center">
 			<br>
-			<p>CATÁLOGO DE EVENTOS</p>
 			<br>
-			<a href="#" class="btn btn-default btn-system">DESCARGAR</a>
 		</div>
 	</div>
 	<div class="container">

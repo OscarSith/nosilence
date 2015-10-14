@@ -13,7 +13,7 @@ class Testimonial extends Model {
 
 	public function scopePaginator($q)
 	{
-		return $q->latest()->paginate(2);
+		return $q->latest()->paginate(8);
 	}
 	public function scopeListActives($q)
 	{

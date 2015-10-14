@@ -7,32 +7,31 @@
 
         <!-- Indicators -->
         <ol class="carousel-indicators">
-            <li data-target="#main-slide" data-slide-to="0" class="active"></li>
-            <li data-target="#main-slide" data-slide-to="1"></li>
-            <li data-target="#main-slide" data-slide-to="2"></li>
+            @foreach ($sliders as $key => $value)
+                <li data-target="#main-slide" data-slide-to="{{ $key }}" class="{{ $key == 0 ? 'active' : ''}}"></li>
+            @endforeach
         </ol>
         <div class="carousel-inner">
-            <div class="item active">
-                <img class="img-responsive" src="images/slider/bg1.jpg" alt="slider">
-            </div>
-            <div class="item">
+            @foreach ($sliders as $rec => $key)
+                <div class="item {{ $rec == 0 ? 'active' : ''}}">
+                    <img class="img-responsive" src="images/slider/{{ $key->picture }}" alt="slider {{ $key->picture }}">
+                </div>
+            @endforeach
+            <!-- <div class="item">
                 <img class="img-responsive" src="images/slider/bg2.jpg" alt="slider">
                 <div class="slider-content">
-                    <!-- <div class="col-md-12 text-center">
+                    <div class="col-md-12 text-center">
                         <h2 class="animated4">
                         <span><strong>Nosilence</strong> for the highest</span>
                     </h2>
                         <h3 class="animated5">
                     	<span>The Key of your Success</span>
-                    </h3>	
+                    </h3>
                         <p class="animated6"><a href="#" class="slider btn btn-system btn-large">Buy Now</a>
                         </p>
-                    </div> -->
+                    </div>
                 </div>
-            </div>
-            <div class="item">
-                <img class="img-responsive" src="images/slider/bg3.jpg" alt="slider">
-            </div>
+            </div> -->
         </div>
 
         <!-- Controls -->
@@ -66,7 +65,7 @@
                     <div class="col-xs-12 col-sm-3 col-md-3">
                         <div class="counter-item">
                             <i class="fa fa-birthday-cake"></i>
-                            <div class="timer" id="item1" data-to="378" data-speed="4000"></div>
+                            <div class="timer" id="item1" data-to="308" data-speed="4000"></div>
                             <h5>Fiestas Increibles</h5>
                         </div>
                     </div>
@@ -80,14 +79,14 @@
                     <div class="col-xs-12 col-sm-3 col-md-3">
                         <div class="counter-item">
                             <i class="fa fa-graduation-cap"></i>
-                            <div class="timer" id="item3" data-to="1350" data-speed="4000"></div>
+                            <div class="timer" id="item3" data-to="851" data-speed="4000"></div>
                             <h5>Alumnos vivieron una gran noche</h5>
                         </div>
                     </div>
                     <div class="col-xs-12 col-sm-3 col-md-3">
                         <div class="counter-item">
                             <i class="fa fa-heartbeat"></i>
-                            <div class="timer" id="item4" data-to="132453" data-speed="5000"></div>
+                            <div class="timer" id="item4" data-to="8453" data-speed="5000"></div>
                             <h5>Invitados bailaron de principio a fin</h5>
                         </div>
                     </div>

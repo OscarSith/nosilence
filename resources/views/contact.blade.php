@@ -36,12 +36,7 @@
 								<input type="text" name="telefono" placeholder="Teléfono">
 							</div>
 							<div class="col-sm-6">
-								<select name="tipo" id="tipo" class="form-control">
-									<option value="">Tipo de evento</option>
-									<option value="Quinceañero">Fiesta de quinceaños</option>
-									<option value="Fiesta privada">Fiesta privada</option>
-									<option value="Fiesta prom">Fiesta de prom</option>
-								</select>
+								<input type="text" name="tipo" id="tipo" placeholder="Tipo de evento">
 							</div>
 						</div>
 					</div>
@@ -53,7 +48,7 @@
 					<button type="submit" id="submit" class="btn-system btn-large">Enviar</button>
 				</form>
 			</div>
-			
+
 			<div class="col-md-4">
 				<h4 class="classic-title"><span>Información</span></h4>
 				<p>Av. Dos de Mayo 516 of. 201 - Miraflores</p>

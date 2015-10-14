@@ -1,5 +1,10 @@
 <?php namespace Nosilence\Http\Controllers;
 
+use Nosilence\Sliders;
+use Request;
+use Image;
+use File;
+
 class HomeController extends Controller {
 
 	/*
@@ -30,7 +35,46 @@ class HomeController extends Controller {
 	 */
 	public function index()
 	{
-		return view('admin.home');
+		$sliders = Sliders::listAll();
+		return view('admin.home', compact('sliders'));
 	}
 
+	public function upload()
+	{
+		$img = Request::file('picture');
+		$picture = str_random(5) . '_' . $img->getClientOriginalName();
+		$order = (Sliders::getCount(Request::input('modulo'))) + 1;
+
+		Sliders::create(['modulo' => Request::input('modulo'), 'picture' => $picture, 'order' => $order]);
+		Image::make($img->getRealPath())->save('images/slider/' . $picture);
+		return redirect()->back();
+	}
+
+	public function changeStatusPicture($id)
+	{
+		$slider = Sliders::find($id);
+		$slider->estado = Request::input('estado');
+		$slider->save();
+
+		return response()->json(['estado' => Request::input('estado')]);
+	}
+
+	public function deletePicture($id)
+	{
+		Sliders::destroy($id);
+		File::delete('images/slider/' . Request::input('picture'));
+		return response()->json([]);
+	}
+
+	public function changeOrder()
+	{
+		$params = Request::input('order');
+		foreach ($params as $key) {
+			$slider = Sliders::find($key['id']);
+			$slider->order = $key['order'];
+			$slider->save();
+		}
+
+		return response()->json([]);
+	}
 }

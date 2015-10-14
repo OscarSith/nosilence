@@ -19,7 +19,9 @@
 						<h4 class="classic-title"><span>BIENVENIDOS A NOSILENCE PERÚ</span></h4>
 						<p>Somos un equipo de profesionales especialistas en producir fiestas innovadoras y creativas para adolescentes, creamos nuevas formas de vivir una celebración, en un marco confiable y seguro.</p>
 						<br>
-						<p>Cuando empezó Nosilence en el 2007 estábamos convencidos de que íbamos a otorgar a los adolescentes una nueva forma de vivir una fiesta. Hoy, 8 años después, nuestro trabajo y compromiso nos han posicionado como empresa líder en entretenimiento para adolescentes.</p>
+						<blockquote>
+							<p><em>Cuando empezó Nosilence en el 2007 estábamos convencidos de que íbamos a otorgar a los adolescentes una nueva forma de vivir una fiesta. Hoy, 8 años después, nuestro trabajo y compromiso nos han posicionado como empresa líder en entretenimiento para adolescentes.</em></p>
+						</blockquote>
 					</div>
 					<div class="col-sm-5">
 						<div id="touch-slider-us" class="touch-slider" data-slider-navigation="true" data-slider-pagination="true">
@@ -45,7 +47,7 @@
 									<p>
 										<small>
 											<span>dirección general</span>
-											<a href="#">diago@nosilenceperu.com</a>
+											<a href="#">diego@nosilenceperu.com</a>
 										</small>
 									</p>
 								</div>

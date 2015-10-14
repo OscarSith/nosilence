@@ -20,12 +20,21 @@ Route::get('contacto', 'WelcomeController@contacto');
 Route::get('testimonios', 'WelcomeController@testimonial');
 Route::post('contact', 'WelcomeController@sendMail');
 
+Route::get('pass', function() {
+	echo bcrypt('root');
+});
+
 Route::group(['prefix' => 'admin'], function($route) {
 	$route->get('/', ['as' => 'home', 'uses' => 'HomeController@index']);
 	$route->get('testimonios', ['middleware' => 'auth', 'as' => 'testimonial', 'uses' => 'TestimonialController@index']);
 	$route->put('testimonios/aceptar', ['middleware' => 'auth', 'as' => 'accept', 'uses' => 'TestimonialController@update']);
 	$route->delete('testimonios/rechazar', ['middleware' => 'auth', 'as' => 'reject', 'uses' => 'TestimonialController@delete']);
 	$route->post('testimonios', ['as' => 'addTestimonial', 'uses' => 'TestimonialController@store']);
+
+	$route->post('add-slider', ['as' => 'slider', 'uses' => 'HomeController@upload']);
+	$route->put('change-status-picture/{id}', ['as' => 'changePictureStatus', 'uses' => 'HomeController@changeStatusPicture']);
+	$route->delete('delete-picture/{id}', ['as' => 'deletePicture', 'uses' => 'HomeController@deletePicture']);
+	$route->post('change-picture-order', ['as' => 'changeOrder', 'uses' => 'HomeController@changeOrder']);
 });
 
 Route::controllers([

@@ -22,9 +22,12 @@
             <div class="top-bar">
                 <div class="container">
                     <div class="row">
-                        <div class="col-md-6">
+                        <div class="col-sm-7">
+                            <ul class="contact-details">
+                                <li><a href="#mailto"><i class="fa fa-envelope-o"></i> eventos@nosilenceperu.com</a></li>
+                            </ul>
                         </div>
-                        <div class="col-md-6">
+                        <div class="col-sm-5">
                             <ul class="social-list">
                                 <li>
                                     <a class="instgram itl-tooltip" data-placement="bottom" title="Instagram" href="https://instagram.com/nosilence_peru/" target="_blank"><i class="fa fa-instagram"></i></a>
@@ -59,8 +62,7 @@
                                 <a {{ ($currentUrl == 'fiesta-15' || $currentUrl == 'fiesta-promo' ) ? 'class=active' : '' }} href="#">Eventos <span class="caret"></span></a>
                                 <ul class="dropdown">
                                     <li><a href="{{ url('fiesta-15') }}" {{ $currentUrl == 'fiesta-15' ? 'class=active' : '' }}>Fiesta de 15</a></li>
-                                    <li><a href="{{ url('fiesta-promo') }}" {{ $currentUrl == 'fiesta-promo' ? 'class=active' : '' }}>Fiesta de Prom</a></li>
-                                    <li><a href="#">Fiesta Privada</a></li>
+                                    <li><a href="{{ url('fiesta-promo') }}" {{ $currentUrl == 'fiesta-promo' ? 'class=active' : '' }}>Fiesta de Promoción</a></li>
                                 </ul>
                             </li>
                             <li><a {{ $currentUrl === 'servicios' ? 'class=active' : '' }} href="{{ url('servicios') }}">Servicios</a></li>

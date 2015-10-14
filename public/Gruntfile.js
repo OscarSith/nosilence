@@ -6,10 +6,10 @@ module.exports = function(grunt) {
 					'css/main.min.css': [
 						'asset/css/bootstrap.min.css',
 						'bower_components/fontawesome/css/font-awesome.min.css',
-						'css/style.css',
 						'css/responsive.css',
 						'css/animate.css',
 						'css/colors/blue.css',
+						'css/style.css',
 					]
 				}
 			},

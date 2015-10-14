@@ -1,6 +1,7 @@
 <?php namespace Nosilence\Http\Controllers;
 
 use Nosilence\Testimonial;
+use Nosilence\Sliders;
 
 class WelcomeController extends Controller {
 	/**
@@ -10,7 +11,8 @@ class WelcomeController extends Controller {
 	 */
 	public function index()
 	{
-		return view('welcome');
+		$sliders = Sliders::actives();
+		return view('welcome', compact('sliders'));
 	}
 
 	public function quincianero()

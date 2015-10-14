@@ -55,7 +55,7 @@
 									<div class="alert alert-success">{{ Session::get('success') }}</div>
 								@endif
 								<div class="form-group">
-									{!! Form::text('autor', null, ['class' => 'form-control', 'placeholder' => 'Autor']) !!}
+									{!! Form::text('autor', null, ['class' => 'form-control', 'placeholder' => 'Nombre']) !!}
 								</div>
 								<div class="form-group">
 									{!! Form::textarea('body', null, ['class' => 'form-control', 'placeholder' => 'Escriba aquí su testimonio...', 'rows' => 6]) !!}
