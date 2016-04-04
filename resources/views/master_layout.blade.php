@@ -9,7 +9,6 @@
 
     <meta name="description" content="">
     <meta name="author" content="Oscar Larriega <larriega@gmail.com>">
-    <!--<link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800">-->
     <link href='http://fonts.googleapis.com/css?family=Open+Sans:300italic,400' rel='stylesheet' type='text/css'>
     <link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Lora:400,700,400italic,700italic">
     <link rel="stylesheet" href="{{ asset('css/main.min.css') }}" type="text/css" media="screen">
@@ -66,7 +65,12 @@
                                 </ul>
                             </li>
                             <li><a {{ $currentUrl === 'servicios' ? 'class=active' : '' }} href="{{ url('servicios') }}">Servicios</a></li>
-                            <li><a {{ $currentUrl == 'testimonios' ? 'class=active' : '' }} href="{{ url('testimonios') }}">Testimonios</a></li>
+                            <!-- <li>
+                                <a {{ $currentUrl === 'cotizacion' ? 'class=active' : '' }} href="{{ url('cotizacion') }}">Cotización</a>
+                            </li> -->
+                            <li>
+                                <a {{ $currentUrl == 'testimonios' ? 'class=active' : '' }} href="{{ url('testimonios') }}">Testimonios</a>
+                            </li>
                             <li><a {{ $currentUrl === 'contacto' ? 'class=active' : '' }} href="{{ url('contacto') }}">Contacto</a></li>
                         </ul>
                     </div>
@@ -142,23 +146,16 @@
     <script type="text/javascript" src="{{ asset('js/jquery.migrate.js') }}"></script>
     <script type="text/javascript" src="{{ asset('js/modernizrr.js') }}"></script>
     <script type="text/javascript" src="{{ asset('asset/js/bootstrap.min.js') }}"></script>
-    <!--<script type="text/javascript" src="js/jquery.fitvids.js"></script>-->
     <script type="text/javascript" src="{{ asset('js/owl.carousel.min.js') }}"></script>
-    <!--<script type="text/javascript" src="js/nivo-lightbox.min.js"></script>-->
-    <!--<script type="text/javascript" src="js/jquery.isotope.min.js"></script>-->
     <script type="text/javascript" src="js/jquery.appear.js"></script>
     <script type="text/javascript" src="{{ asset('js/count-to.js') }}"></script>
     <script type="text/javascript" src="{{ asset('js/jquery.textillate.js') }}"></script>
     <script type="text/javascript" src="{{ asset('js/jquery.lettering.js') }}"></script>
-    <!--<script type="text/javascript" src="js/jquery.easypiechart.min.js"></script>-->
-    <!--<script type="text/javascript" src="js/jquery.nicescroll.min.js"></script>-->
-    <!--<script type="text/javascript" src="{{ asset('bower_components/parallax.js/parallax.min.js') }}"></script>-->
-    <!--<script type="text/javascript" src="js/mediaelement-and-player.js"></script>-->
     <script type="text/javascript" src="{{ asset('js/jquery.BlackAndWhite.min.js') }}"></script>
     <script type="text/javascript" src="{{ asset('js/script.js') }}"></script>
 
     @yield('contact')
-    @yield('othet')
+    @yield('other')
 
     <!--[if IE 8]><script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script><![endif]-->
     <!--[if lt IE 9]><script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script><![endif]-->

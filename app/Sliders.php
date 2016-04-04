@@ -22,6 +22,6 @@ class Sliders extends Model {
 
 	public function scopeGetCount($q, $modulo = 'HOME')
 	{
-		return $q->where('modulo', $modulo)->count(['id']);
+		return $q->where('modulo', $modulo);
 	}
 }

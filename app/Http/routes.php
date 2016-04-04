@@ -18,7 +18,10 @@ Route::get('fiesta-promo', 'WelcomeController@party');
 Route::get('servicios', 'WelcomeController@services');
 Route::get('contacto', 'WelcomeController@contacto');
 Route::get('testimonios', 'WelcomeController@testimonial');
+Route::get('cotizacion', 'WelcomeController@cotizacion');
 Route::post('contact', 'WelcomeController@sendMail');
+Route::post('cotiza-fiesta-promocion', ['as' => 'cotizaFiestaPromocion', 'uses' => 'WelcomeController@sendCotizacion']);
+Route::post('cotiza-fiesta-15', ['as' => 'cotizaFiestaDe15', 'uses' => 'WelcomeController@sendCotizacion']);
 
 Route::get('pass', function() {
 	echo bcrypt('root');

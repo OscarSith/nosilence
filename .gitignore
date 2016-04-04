@@ -6,4 +6,5 @@
 .env
 /public/bower_components
 /public/images/quinceaeros
+/public/images/slider/
 .DS_Store

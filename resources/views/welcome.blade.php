@@ -17,24 +17,8 @@
                     <img class="img-responsive" src="images/slider/{{ $key->picture }}" alt="slider {{ $key->picture }}">
                 </div>
             @endforeach
-            <!-- <div class="item">
-                <img class="img-responsive" src="images/slider/bg2.jpg" alt="slider">
-                <div class="slider-content">
-                    <div class="col-md-12 text-center">
-                        <h2 class="animated4">
-                        <span><strong>Nosilence</strong> for the highest</span>
-                    </h2>
-                        <h3 class="animated5">
-                    	<span>The Key of your Success</span>
-                    </h3>
-                        <p class="animated6"><a href="#" class="slider btn btn-system btn-large">Buy Now</a>
-                        </p>
-                    </div>
-                </div>
-            </div> -->
         </div>
 
-        <!-- Controls -->
         <a class="left carousel-control" href="#main-slide" data-slide="prev">
             <span><i class="fa fa-angle-left"></i></span>
         </a>
@@ -42,7 +26,6 @@
             <span><i class="fa fa-angle-right"></i></span>
         </a>
     </div>
-    <!-- /carousel -->
 </section>
 <div class="section">
     <div class="container">

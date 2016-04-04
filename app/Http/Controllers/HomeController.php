@@ -43,7 +43,7 @@ class HomeController extends Controller {
 	{
 		$img = Request::file('picture');
 		$picture = str_random(5) . '_' . $img->getClientOriginalName();
-		$order = (Sliders::getCount(Request::input('modulo'))) + 1;
+		$order = (Sliders::getCount(Request::input('modulo'))->count(['id'])) + 1;
 
 		Sliders::create(['modulo' => Request::input('modulo'), 'picture' => $picture, 'order' => $order]);
 		Image::make($img->getRealPath())->save('images/slider/' . $picture);
