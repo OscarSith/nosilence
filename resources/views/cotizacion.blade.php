@@ -115,8 +115,8 @@
 									</div>
 								</div>
 								<hr>
-								<div class="col-sm-offset-2">
-									<button class="btn btn-large btn-system">Enviar Cotización</button>
+								<div class="text-center">
+									<button class="btn btn-large btn-system">Enviar</button>
 								</div>
 							{!! Form::close() !!}
 						</div>
@@ -125,47 +125,47 @@
 								<input type="hidden" name="seccion" value="2">
 								<h2 class="classic-title margin-top">INFORMACIÓN GENERAL</h2>
 								<div class="form-group">
-									{!! Form::label('nombre_completo', 'NOMBRES Y APELLIDOS', ['class' => 'control-label col-sm-2 small']) !!}
+									{!! Form::label('nombre_completo2', 'NOMBRES Y APELLIDOS', ['class' => 'control-label col-sm-2 small']) !!}
 									<div class="col-sm-10">
-										{!! Form::text('nombre_completo', null, ['class' => 'form-control']) !!}
+										{!! Form::text('nombre_completo', null, ['class' => 'form-control', 'id' => 'nombre_completo2']) !!}
 									</div>
 								</div>
 								<div class="form-group has-feedback">
-									{!! Form::label('correo', 'CORREO ELECTRÓNICO', ['class' => 'control-label col-sm-2 small']) !!}
+									{!! Form::label('correo2', 'CORREO ELECTRÓNICO', ['class' => 'control-label col-sm-2 small']) !!}
 									<div class="col-sm-5">
-										{!! Form::email('correo', null, ['class' => 'form-control']) !!}
+										{!! Form::email('correo', null, ['class' => 'form-control', 'id' => 'correo2']) !!}
 										<i class="fa fa-envelope fa-lg form-control-feedback" aria-hidden="true"></i>
 									</div>
-									{!! Form::label('telefono', 'TELF. / CEL.', ['class' => 'control-label col-sm-2 small']) !!}
+									{!! Form::label('telefono2', 'TELF. / CEL.', ['class' => 'control-label col-sm-2 small']) !!}
 									<div class="col-sm-3">
-										{!! Form::text('telefono', null, ['class' => 'form-control']) !!}
+										{!! Form::text('telefono', null, ['class' => 'form-control', 'id' => 'telefono2']) !!}
 										<i class="fa fa-phone fa-lg form-control-feedback" aria-hidden="true"></i>
 									</div>
 								</div>
 								<h4 class="classic-title margin-top60">INFORMACIÓN DE LA FIESTA:</h4>
 								<div class="form-group has-feedback">
-									{!! Form::label('posibles_fechas', 'POSIBLE FECHA', ['class' => 'control-label col-sm-2 small']) !!}
+									{!! Form::label('posibles_fechas2', 'POSIBLE FECHA', ['class' => 'control-label col-sm-2 small']) !!}
 									<div class="col-sm-3">
-										{!! Form::text('posibles_fechas', null, ['class' => 'form-control']) !!}
+										{!! Form::text('posibles_fechas', null, ['class' => 'form-control', 'id' => 'posibles_fechas2']) !!}
 										<i class="fa fa-calendar fa-lg form-control-feedback" aria-hidden="true"></i>
 									</div>
 								</div>
 								<div class="form-group">
 									{!! Form::label('nro_participantes', 'NUMERO DE ADOLESCENTES PARTICIPANTES', ['class' => 'control-label col-sm-3 small']) !!}
 									<div class="col-sm-2">
-										{!! Form::number('nro_participantes', null, ['class' => 'form-control']) !!}
+										{!! Form::number('nro_participantes', null, ['class' => 'form-control', 'id' => 'nro_participantes2']) !!}
 									</div>
 								</div>
 								<div class="form-group">
 								{!! Form::label('nro_adultos_participantes', 'NUMERO DE ADULTOS PARTICIPANTES', ['class' => 'control-label col-sm-3 small']) !!}
 									<div class="col-sm-2">
-										{!! Form::number('nro_adultos_participantes', null, ['class' => 'form-control']) !!}
+										{!! Form::number('nro_adultos_participantes', null, ['class' => 'form-control', 'id' => 'nro_adultos_participantes2']) !!}
 									</div>
 								</div>
 								<div class="form-group">
 									{!! Form::label('posible_tematica', 'POSIBLE TEMÁTICA DE LA FIESTA', ['class' => 'control-label col-sm-3 small']) !!}
 									<div class="col-sm-9">
-										{!! Form::text('posible_tematica', null, ['class' => 'form-control']) !!}
+										{!! Form::text('posible_tematica', null, ['class' => 'form-control', 'id' => 'posible_tematica2']) !!}
 									</div>
 								</div>
 								<div class="form-group">
@@ -184,8 +184,8 @@
 									</div>
 								</div>
 								<hr class="hr5">
-								<div class="col-sm-offset-2">
-									<button class="btn btn-large btn-system">Enviar Cotización</button>
+								<div class="text-center">
+									<button class="btn btn-large btn-system">Enviar</button>
 								</div>
 							{!! Form::close() !!}
 						</div>
@@ -198,10 +198,18 @@
 @stop
 
 @section('other')
+	<script type="text/javascript" src="{{ asset('js/bootstrap-datepicker.min.js') }}"></script>
 	<script type="text/javascript">
 	@if (Session::hasOldInput('seccion') && Session::getOldInput('seccion') == 2)
 		$('#cotizaFiestaPromocion :input').val('');
 		$('#tabForm2').click();
 	@endif
+	$('#fecha, #posibles_fechas2').datepicker({
+		format: "dd-mm-yyyy",
+		startView: 2,
+		language: "es",
+		autoclose: true,
+		todayHighlight: true
+	});
 	</script>
 @stop

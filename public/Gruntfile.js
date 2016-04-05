@@ -5,6 +5,7 @@ module.exports = function(grunt) {
 				files: {
 					'css/main.min.css': [
 						'asset/css/bootstrap.min.css',
+						'bower_components/bootstrap-datepicker/dist/css/bootstrap-datepicker3.css',
 						'bower_components/fontawesome/css/font-awesome.min.css',
 						'css/responsive.css',
 						'css/animate.css',
