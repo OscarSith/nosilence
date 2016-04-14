@@ -45,8 +45,7 @@ class WelcomeController extends Controller {
 		{
 			$message->from($data['email'], $data['nombre']);
 
-			$message->to('diego@nosilenceperu.com', 'Nosilenceperu')
-					->to('eventos@nosilenceperu.com', 'Nosilenceperu');
+			$message->to('eventos@nosilenceperu.com', 'Nosilenceperu');
 
 		});
 

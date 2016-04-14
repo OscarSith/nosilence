@@ -9,7 +9,7 @@
 			</div>
 		</div>
 	</div>
-	<div id="content">
+	<div id="content" class="pt20">
 		<div class="container">
 			<div class="row">
 				<div class="col-lg-10 col-lg-offset-1">

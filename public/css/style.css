@@ -2756,3 +2756,6 @@ p:last-child {
 i.form-control-feedback {
 	top: 11px !important;
 }
+.pt20 {
+	padding-top: 20px !important
+}

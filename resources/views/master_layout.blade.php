@@ -23,7 +23,9 @@
                     <div class="row">
                         <div class="col-sm-7">
                             <ul class="contact-details">
-                                <li><a href="#mailto"><i class="fa fa-envelope-o"></i> eventos@nosilenceperu.com</a></li>
+                                <li>
+                                    <a href="#mailto:eventos@nosilenceperu.com"><i class="fa fa-envelope-o"></i> eventos@nosilenceperu.com</a>
+                                </li>
                             </ul>
                         </div>
                         <div class="col-sm-5">
@@ -64,10 +66,9 @@
                                     <li><a href="{{ url('fiesta-promo') }}" {{ $currentUrl == 'fiesta-promo' ? 'class=active' : '' }}>Fiesta de Promoción</a></li>
                                 </ul>
                             </li>
-                            <li><a {{ $currentUrl === 'servicios' ? 'class=active' : '' }} href="{{ url('servicios') }}">Servicios</a></li>
-                            <!-- <li>
+                            <li>
                                 <a {{ $currentUrl === 'cotizacion' ? 'class=active' : '' }} href="{{ url('cotizacion') }}">Cotización</a>
-                            </li> -->
+                            </li>
                             <li>
                                 <a {{ $currentUrl == 'testimonios' ? 'class=active' : '' }} href="{{ url('testimonios') }}">Testimonios</a>
                             </li>

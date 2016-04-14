@@ -24,12 +24,8 @@
 						</blockquote>
 					</div>
 					<div class="col-sm-5">
-						<div id="touch-slider-us" class="touch-slider" data-slider-navigation="true" data-slider-pagination="true">
-							<div class="item"><img alt="" src="images/nosotros/about-01.jpg"></div>
-							<div class="item"><img alt="" src="images/nosotros/about-02.jpg"></div>
-							<div class="item"><img alt="" src="images/nosotros/about-03.jpg"></div>
-							<div class="item"><img alt="" src="images/nosotros/about-04.jpg"></div>
-							<div class="item"><img alt="" src="images/nosotros/about-05.jpg"></div>
+						<div class="embed-responsive embed-responsive-16by9">
+							<iframe class="embed-responsive-item" width="560" height="315" src="https://www.youtube.com/embed/5wm9N11UnZ0?rel=0" frameborder="0" allowfullscreen></iframe>
 						</div>
 					</div>
 				</div>
