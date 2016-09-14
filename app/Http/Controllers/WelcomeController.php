@@ -75,8 +75,8 @@ class WelcomeController extends Controller {
 
 		\Mail::send('emails.cotizacion', $params, function($message) use ($params)
 		{
-			$message->to('gerardo@nosilenceperu.com', 'Gerardo Samaniago');
-			$message->to('eventos@nosilenceperu.com', 'Eventos Nosilence');
+			$message->to(env('COTI_MAIN_MAIL_1'), env('COTI_MAIN_NAME_1'));
+			$message->to(env('COTI_MAIN_MAIL_2'), env('COTI_MAIN_NAME_2'));
 			$message->subject('Cotización enviada de ' . $params['nombre_completo']);
 		});
 
