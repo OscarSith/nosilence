@@ -33,9 +33,9 @@ class CotizacionRequest extends Request {
 			return array_merge($sameRules, [
 				'colegio' => 'required',
 				'participacion_padres' => 'required|in:SI,NO',
-				'fecha' => 'required|date',
-				'hora' => 'required',
-				'direccion' => 'required'
+				'fecha' => 'sometimes|date',
+				'hora' => 'sometimes',
+				'direccion' => 'sometimes'
 			]);
 		} else {
 			return array_merge($sameRules, [
