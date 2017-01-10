@@ -147,6 +147,7 @@ return [
 
 		'Collective\Html\HtmlServiceProvider',
 		'Intervention\Image\ImageServiceProvider',
+		'SammyK\LaravelFacebookSdk\LaravelFacebookSdkServiceProvider',
 
 	],
 
@@ -199,6 +200,7 @@ return [
 		'Form' => 'Collective\Html\FormFacade',
 		'Html' => 'Collective\Html\HtmlFacade',
 		'Image' => 'Intervention\Image\Facades\Image',
+		'Facebook' => 'SammyK\LaravelFacebookSdk\FacebookFacade'
 
 	],
 

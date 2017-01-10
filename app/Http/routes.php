@@ -22,6 +22,9 @@ Route::get('cotizacion', 'WelcomeController@cotizacion');
 Route::post('contact', 'WelcomeController@sendMail');
 Route::post('cotiza-fiesta-promocion', ['as' => 'cotizaFiestaPromocion', 'uses' => 'WelcomeController@sendCotizacion']);
 Route::post('cotiza-fiesta-15', ['as' => 'cotizaFiestaDe15', 'uses' => 'WelcomeController@sendCotizacion']);
+Route::get('facebook', ['as' => 'facebook', 'uses' => 'FacebookController@index']);
+Route::get('facebook/callback', ['as' => 'facebook-cb', 'uses' => 'FacebookController@callback']);
+Route::get('facebook/wall', ['as' => 'facebook-wall', 'uses' => 'FacebookController@wall']);
 
 Route::get('pass', function() {
 	echo bcrypt('root');
