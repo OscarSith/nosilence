@@ -8,3 +8,8 @@
 /public/images/quinceaeros
 /public/images/slider/
 .DS_Store
+
+
+.idea
+## Directory-based project format:
+.idea/
